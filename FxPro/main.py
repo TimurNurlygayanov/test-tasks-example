@@ -28,8 +28,9 @@ OKGREEN = '\033[92m\033[1m'
 FAIL = '\033[91m\033[1m'
 ENDC = '\033[0m'
 
+
 # This is my own implementation of the function which should be tested:
-def check_scring(s):
+def check_string(s):
     pattern = re.compile('[A-Za-zА-Яа-яЁёΑ-Ωα-ω0-9]{2}')
     return int( bool(pattern.match(s)) )
 
@@ -69,10 +70,11 @@ TEST_CASES = [
 
 msg = 'Value: {0}, expected result: {1}, actual result: {2}, status: {3}'
 
+# Run tests and print results:
 for test in TEST_CASES:
     value = test['value']
     expected = test['expected_result']
-    actual = check_scring(value)
+    actual = check_string(value)
     status = OKGREEN + 'Passed' + ENDC if expected == actual else FAIL + 'Failed' + ENDC
 
     print(msg.format(value, expected, actual, status))
