@@ -1,26 +1,5 @@
 # -*- encoding=utf8 -*-
 
-# Test Task:
-# Function takes two and only two characters as input. It returns 1 when each entered symbol
-# is either letter or number and 0 in other cases.
-# Numbers are Arabic numbers from 0 to 9. Letters are Latin, Cyrillic or Modern Greek alphabet.
-# The bug was found before, slogan is: "Cyrillic letters are treated as non-letter symbols"
-# Actions to reproduce:
-# Function input: БГ.
-# Expected output: 1. (Logic: only Cyrillic letters).
-# Observed output: 0.
-# The bug was fixed. Existing tests were already ran as a regression test after bugfix, here is the test report:
-# Input     Expected output               Status
-# AA          1                                             Passed
-# 1A           1                                            Passed
-# 11           1                                            Passed
-# A$           0                                            Passed
-# (1            0                                            Passed
-# What tests will you do for bug's verification?
-# Will you propose additional testcase(-s) to enforce regression testing of the function?
-# Negative tests like input less than 2 symbols and input more than 2 symbols are out of
-# scope for both bug verification and additional regression test cases.
-
 import re
 
 
