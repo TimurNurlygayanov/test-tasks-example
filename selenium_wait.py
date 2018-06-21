@@ -9,7 +9,7 @@ import time
 
 def open_page_simple(web_browser, url):
     """ This is simple function which checks that page loaded completely. """
-    
+
     web_browser.get(url)
 
     page_loaded = False
