@@ -1,0 +1,12 @@
+<p>Active Agents: <b> {{ agents_count }} </b>
+<p>Tasks in queue:
+<H3>{{ progress }} / {{ total }}</H3>
+
+<p>Average performance: {{ performance }} requests per second.
+<p>Average time to finish current task: {{ time_to_finish }} minutes. Please wait and take some coffee :)
+
+    {% if progress == 0 %}
+
+    <meta http-equiv="refresh" content="0;URL=/" />
+
+    {% endif %}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AliExpress search crawler</title>
+</head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<style>
+[class*="span"].centred {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+
+.center form {
+        display: table;
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+
+
+
+<center>
+
+    {% if not progress %}
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+
+                        <form enctype="multipart/form-data" action="{{ url_for('run_crawlers') }}" method="post">
+
+                            <p><p><p><p>
+                            <label for="search_url">Search Page:</label>
+                            <select class="form-control" id="search_url" name="search_url">
+                                <option value="https://tmall.aliexpress.com/wholesale?SearchText={0}">TMall search</option>
+                            </select>
+
+                            <p><label class="btn btn-primary" for="my-file">
+                            <input id="my-file" type="file" name="file" style="display:none"
+                                onchange="$('#upload-file-info').html(this.files[0].name)">
+                                    Upload file with search requests
+                            </label>
+                            <span class='label label-info' id="upload-file-info"></span>
+
+                            <p><button type="submit" class="btn btn-success">Get Results!</button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <p>
+            <hr>
+    <p>
+    <H5> Link to the previous results ZIP archive: <a href="{{ url_for('download') }}"> download </a> </H5>
+
+    {% else %}
+
+            <h1> Crawling... </h1>
+
+            <center><div id="progress">
+                <p>Active Agents: <b> {{ agents_count }} </b>
+                <p>Tasks in queue:
+                <H3>{{ progress }} / {{ total }}</H3>
+
+                <p>Average performance: {{ performance }} requests per second.
+                <p>Average time to finish current task: {{ time_to_finish }} minutes. Please wait and take some coffee :)
+
+                {% if progress == 0 %}
+
+                    <meta http-equiv="refresh" content="0;URL=/" />
+
+                {% endif %} </div>
+            </center>
+
+
+    <p>
+            <hr>
+    <p>
+    <H5> Link to the results ZIP archive (<b>Note:</b> crawling is in progress!): <a href="{{ url_for('download') }}"> download </a> </H5>
+
+            <script>
+            function executeQuery() {
+              $.ajax({
+                  url: "/detailed_progress",
+                  type: "get",
+                  success: function(data) {
+                    $("#progress").html(data);
+                  },
+                  error: function(xhr) {
+                    // Ignore
+                  }
+              });
+            }
+
+            $(document).ready(function() {
+                setInterval(executeQuery, 1000);
+            });
+            </script>
+
+    {% endif %}
+
+
+</center>
+
+
+</body>
+</html>

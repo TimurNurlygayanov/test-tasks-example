@@ -1,12 +1,11 @@
 #!/usr/bin/python3
 
-import requests
-from multiprocessing import Queue
-from configparser import ConfigParser
 from requests.utils import requote_uri
+import time
 
 import asyncio
 from aiohttp import ClientSession
+
 
 
 async def fetch(url, session):
@@ -30,7 +29,7 @@ async def run(urls):
 
     async_tasks = []
     # Create instance of Semaphore
-    sem = asyncio.Semaphore(1000)
+    sem = asyncio.Semaphore(10000)
 
     # Create client session that will ensure we don't open new connection
     # per each request:
@@ -43,4 +42,21 @@ async def run(urls):
 
         # wait for all the results:
         return await asyncio.gather(*async_tasks, return_exceptions=False)
+
+
+start_time = int(round(time.time()))
+
+urls = ['http://mail.ru' for i in range(100)]
+# Start processing of each url in a separate async thread:
+loop = asyncio.get_event_loop()
+future = asyncio.ensure_future(run(urls))
+crawler_results = loop.run_until_complete(future)
+
+
+end_time = int(round(time.time()))
+print('2 TASK WAS DONE IN {0} SECONDS'.format(end_time - start_time))
+
+
+print('Results:', len(crawler_results))
+
 

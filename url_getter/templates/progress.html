@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Progress</title>
+</head>
+
+<body>
+
+<center><div id="progress">Осталось заданий:<H2>{{ progress }} / {{ total }} </H2></div> </center>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+function executeQuery() {
+  $.ajax({
+      url: "/detailed_progress",
+      type: "get",
+      success: function(data) {
+        $("#progress").html(data);
+      },
+      error: function(xhr) {
+        // Ignore
+      }
+  });
+}
+
+$(document).ready(function() {
+    setInterval(executeQuery, 2000);
+});
+</script>
+
+</body>
+
+</html>
