@@ -4,6 +4,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 def test_wait_until(web_browser):
+    """ This is simple test case shows how to wait until
+        some element will be ready for click.
+    """
 
     web_browser.get('https://ya.ru')
 

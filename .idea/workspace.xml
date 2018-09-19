@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/qa_python/selenium_wait_until.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/selenium_wait_until.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/selenium_wait_until.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_002.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/test_pytest_002.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +34,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="1446" />
+          <entry key="py" value="1629" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="1446" />
+          <entry key="Python" value="1629" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -86,16 +86,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/selenium_wait_until.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1537359795233" expanded="true" signature="111:114" ph="..." />
-                <marker date="1537359795233" expanded="true" signature="147:148" ph="..." />
-                <marker date="1537359795233" expanded="true" signature="147:153" ph="..." />
+                <marker date="1537360310939" expanded="true" signature="111:114" ph="..." />
+                <marker date="1537360310939" expanded="true" signature="258:259" ph="..." />
+                <marker date="1537360310939" expanded="true" signature="258:264" ph="..." />
               </folding>
             </state>
           </provider>
@@ -113,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="75">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -186,8 +186,8 @@
         <option value="$PROJECT_DIR$/qa_python/test_pytest_001.py" />
         <option value="$PROJECT_DIR$/qa_python/conftest.py" />
         <option value="$PROJECT_DIR$/qa_python/conftest_001.py" />
-        <option value="$PROJECT_DIR$/qa_python/test_pytest_002.py" />
         <option value="$PROJECT_DIR$/qa_python/selenium_wait_until.py" />
+        <option value="$PROJECT_DIR$/qa_python/test_pytest_002.py" />
       </list>
     </option>
   </component>
@@ -490,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -509,14 +502,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/selenium_wait_until.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1537359795233" expanded="true" signature="111:114" ph="..." />
-            <marker date="1537359795233" expanded="true" signature="147:148" ph="..." />
-            <marker date="1537359795233" expanded="true" signature="147:153" ph="..." />
+            <marker date="1537360310939" expanded="true" signature="111:114" ph="..." />
+            <marker date="1537360310939" expanded="true" signature="258:259" ph="..." />
+            <marker date="1537360310939" expanded="true" signature="258:264" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
