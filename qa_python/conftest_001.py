@@ -42,6 +42,6 @@ def web_browser(request, selenium):
 
     try:
         # Close browser window:
-        b.quit()
+        browser.quit()
     except:
         pass  # just ignore any errors if we can't close the browser.
