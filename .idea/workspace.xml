@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="" />
+    <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/qa_python/selenium_wait_until.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,24 +23,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="1222" />
+          <entry key="py" value="1446" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="1222" />
+          <entry key="Python" value="1446" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -45,11 +48,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inline-timer.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/even_negatives.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,13 +74,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_001.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
               <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <marker date="1537348045788" expanded="true" signature="397:402" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qa_python/selenium_wait_until.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1537359795233" expanded="true" signature="111:114" ph="..." />
+                <marker date="1537359795233" expanded="true" signature="147:148" ph="..." />
+                <marker date="1537359795233" expanded="true" signature="147:153" ph="..." />
               </folding>
             </state>
           </provider>
@@ -174,6 +187,7 @@
         <option value="$PROJECT_DIR$/qa_python/conftest.py" />
         <option value="$PROJECT_DIR$/qa_python/conftest_001.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_002.py" />
+        <option value="$PROJECT_DIR$/qa_python/selenium_wait_until.py" />
       </list>
     </option>
   </component>
@@ -489,6 +503,19 @@
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <marker date="1537348045788" expanded="true" signature="397:402" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/selenium_wait_until.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1537359795233" expanded="true" signature="111:114" ph="..." />
+            <marker date="1537359795233" expanded="true" signature="147:148" ph="..." />
+            <marker date="1537359795233" expanded="true" signature="147:153" ph="..." />
           </folding>
         </state>
       </provider>
