@@ -18,8 +18,11 @@ def test_ya_page_title(web_browser):
 
         Note: you should install pytest-selenium package.
 
-        Note: parameter 'web_browser' - is the fixture of PyTest,
-              which will automatically start browser and return
+        Note: parameter 'web_browser' - is the fixture,
+              which described in file conftest_001.py (need to rename
+              conftest_001.py to conftest.py to make it work).
+
+              This fixture will automatically start browser and return
               WebDriver element to the test case.
     """
 
