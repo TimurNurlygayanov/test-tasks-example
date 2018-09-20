@@ -17,7 +17,7 @@ from random import randint
 # Each fixture should have this decorator '@pytest.fixture'
 @pytest.fixture
 def number_fixture():
-    """ This is simple fixture which return random int. """
+    """ This is simple fixture which returns random int. """
 
     return randint(1, 10)
 

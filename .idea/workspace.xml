@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/qa_python/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qa_python/test_pytest_markers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,24 +23,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="2792" />
+          <entry key="py" value="3265" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="2792" />
+          <entry key="Python" value="3265" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -49,11 +48,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FP/main.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/url_getter/crawler_fast_agent.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,15 +108,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state>
+              <caret selection-end-line="3" selection-end-column="62" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1537442242569" expanded="true" signature="538:543" ph="..." />
-                <marker date="1537442242569" expanded="true" signature="612:617" ph="..." />
+                <marker date="1537442564438" expanded="true" signature="539:544" ph="..." />
+                <marker date="1537442564438" expanded="true" signature="613:618" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_markers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="718">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <marker date="1537442945094" expanded="true" signature="561:566" ph="..." />
+                <marker date="1537442945094" expanded="true" signature="781:786" ph="..." />
               </folding>
             </state>
           </provider>
@@ -196,6 +203,7 @@
         <option value="$PROJECT_DIR$/qa_python/test_pytest_002.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_many_parameters.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" />
+        <option value="$PROJECT_DIR$/qa_python/test_pytest_markers.py" />
       </list>
     </option>
   </component>
@@ -537,12 +545,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="62" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1537442242569" expanded="true" signature="538:543" ph="..." />
-            <marker date="1537442242569" expanded="true" signature="612:617" ph="..." />
+            <marker date="1537442564438" expanded="true" signature="539:544" ph="..." />
+            <marker date="1537442564438" expanded="true" signature="613:618" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_markers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="718">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <marker date="1537442945094" expanded="true" signature="561:566" ph="..." />
+            <marker date="1537442945094" expanded="true" signature="781:786" ph="..." />
           </folding>
         </state>
       </provider>
