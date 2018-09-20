@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/qa_python/selenium_wait_until.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/selenium_wait_until.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_002.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/test_pytest_002.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/.pytest_cache/v/cache/nodeids" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,32 +16,32 @@
     <session id="1457540638">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="1629" />
+          <entry key="py" value="2710" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="1629" />
+          <entry key="Python" value="2710" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -48,15 +49,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/even_negatives.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FP/main.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -77,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_001.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="23" />
               <folding>
                 <marker date="1537348045788" expanded="true" signature="397:402" ph="..." />
               </folding>
@@ -113,11 +105,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1537442107025" expanded="true" signature="434:439" ph="..." />
+                <marker date="1537442107025" expanded="true" signature="508:513" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +140,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/url_getter/crawler_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3765">
+            <state relative-caret-position="3960">
               <caret line="264" selection-start-line="264" selection-end-line="264" />
               <folding>
                 <element signature="e#20#29#0" expanded="true" />
@@ -188,11 +194,13 @@
         <option value="$PROJECT_DIR$/qa_python/conftest_001.py" />
         <option value="$PROJECT_DIR$/qa_python/selenium_wait_until.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_002.py" />
+        <option value="$PROJECT_DIR$/qa_python/test_pytest_many_parameters.py" />
+        <option value="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="160" />
+    <option name="x" value="33" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="977" />
@@ -289,8 +297,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="160" y="23" width="1440" height="977" extended-state="0" />
-    <editor active="true" />
+    <frame x="33" y="23" width="1440" height="977" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -420,9 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-          <folding>
-            <element signature="e#20#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,6 +460,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/selenium_wait_until.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1537360310939" expanded="true" signature="111:114" ph="..." />
+            <marker date="1537360310939" expanded="true" signature="258:259" ph="..." />
+            <marker date="1537360310939" expanded="true" signature="258:264" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/find_same_head_tail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -465,7 +482,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/url_getter/crawler_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3765">
+        <state relative-caret-position="3960">
           <caret line="264" selection-start-line="264" selection-end-line="264" />
           <folding>
             <element signature="e#20#29#0" expanded="true" />
@@ -477,6 +494,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_many_parameters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="e#44#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -492,31 +526,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_001.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="23" />
           <folding>
             <marker date="1537348045788" expanded="true" signature="397:402" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/selenium_wait_until.py">
+    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1537360310939" expanded="true" signature="111:114" ph="..." />
-            <marker date="1537360310939" expanded="true" signature="258:259" ph="..." />
-            <marker date="1537360310939" expanded="true" signature="258:264" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1537442107025" expanded="true" signature="434:439" ph="..." />
+            <marker date="1537442107025" expanded="true" signature="508:513" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
