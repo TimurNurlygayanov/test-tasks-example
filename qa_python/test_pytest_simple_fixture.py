@@ -2,6 +2,8 @@
 # -*- encoding=utf8 -*-
 
 # This is the very simple example of PyTest fixture for tests.
+# How To Run (run several times to see passed and failed cases):
+#    pytest test_pytest_simple_fixture.py
 #
 # Note: PyTest also has many default "buildin" fixtures
 #
@@ -9,7 +11,7 @@
 #
 
 import pytest
-from random import random_int
+from random import randint
 
 
 # Each fixture should have this decorator '@pytest.fixture'
@@ -17,7 +19,7 @@ from random import random_int
 def number_fixture():
     """ This is simple fixture which return random int. """
 
-    return random_int(10)
+    return randint(1, 10)
 
 
 def test_check_random_number(number_fixture):

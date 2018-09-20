@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/.pytest_cache/v/cache/lastfailed" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qa_python/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +35,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="2710" />
+          <entry key="py" value="2792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="2710" />
+          <entry key="Python" value="2792" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -117,12 +117,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="285">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1537442107025" expanded="true" signature="434:439" ph="..." />
-                <marker date="1537442107025" expanded="true" signature="508:513" ph="..." />
+                <marker date="1537442242569" expanded="true" signature="538:543" ph="..." />
+                <marker date="1537442242569" expanded="true" signature="612:617" ph="..." />
               </folding>
             </state>
           </provider>
@@ -298,6 +298,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="23" width="1440" height="977" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -536,12 +537,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="285">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1537442107025" expanded="true" signature="434:439" ph="..." />
-            <marker date="1537442107025" expanded="true" signature="508:513" ph="..." />
+            <marker date="1537442242569" expanded="true" signature="538:543" ph="..." />
+            <marker date="1537442242569" expanded="true" signature="612:617" ph="..." />
           </folding>
         </state>
       </provider>
