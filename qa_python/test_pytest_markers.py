@@ -14,6 +14,7 @@
 import pytest
 
 
+# Note: @pytest.mark.<tag> used to mark test cases with custom tags:
 @pytest.mark.my_smoke_test_suite
 @pytest.mark.my_alway_green_tests
 def test_simple01():

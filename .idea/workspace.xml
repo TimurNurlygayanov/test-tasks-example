@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/qa_python/test_pytest_parametrized_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/test_pytest_markers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +33,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="3738" />
+          <entry key="py" value="3795" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="3738" />
+          <entry key="Python" value="3795" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -109,20 +109,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_markers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="240">
+              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
               <folding>
-                <marker date="1537442945094" expanded="true" signature="561:566" ph="..." />
-                <marker date="1537442945094" expanded="true" signature="781:786" ph="..." />
+                <marker date="1537443473088" expanded="true" signature="630:635" ph="..." />
+                <marker date="1537443473088" expanded="true" signature="850:855" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_parametrized_tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -203,8 +203,8 @@
         <option value="$PROJECT_DIR$/qa_python/test_pytest_002.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_many_parameters.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" />
-        <option value="$PROJECT_DIR$/qa_python/test_pytest_markers.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_parametrized_tests.py" />
+        <option value="$PROJECT_DIR$/qa_python/test_pytest_markers.py" />
       </list>
     </option>
   </component>
@@ -549,17 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_markers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <marker date="1537442945094" expanded="true" signature="561:566" ph="..." />
-            <marker date="1537442945094" expanded="true" signature="781:786" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -574,6 +563,17 @@
           <folding>
             <marker date="1537443365669" expanded="true" signature="554:555" ph="..." />
             <marker date="1537443365669" expanded="true" signature="554:560" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_markers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <marker date="1537443473088" expanded="true" signature="630:635" ph="..." />
+            <marker date="1537443473088" expanded="true" signature="850:855" ph="..." />
           </folding>
         </state>
       </provider>
