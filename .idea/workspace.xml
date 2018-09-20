@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_002.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/test_pytest_002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/test_pytest_markers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,13 +33,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="3928" />
+          <entry key="py" value="3933" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="3928" />
+          <entry key="Python" value="3933" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="465">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -112,21 +112,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_markers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+            <state relative-caret-position="118">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
-                <marker date="1537443473088" expanded="true" signature="630:635" ph="..." />
-                <marker date="1537443473088" expanded="true" signature="850:855" ph="..." />
+                <marker date="1537444207677" expanded="true" signature="633:638" ph="..." />
+                <marker date="1537444207677" expanded="true" signature="855:860" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_parametrized_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <marker date="1537443365669" expanded="true" signature="554:555" ph="..." />
                 <marker date="1537443365669" expanded="true" signature="554:560" ph="..." />
@@ -203,8 +203,8 @@
         <option value="$PROJECT_DIR$/qa_python/test_pytest_many_parameters.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_parametrized_tests.py" />
-        <option value="$PROJECT_DIR$/qa_python/test_pytest_markers.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_002.py" />
+        <option value="$PROJECT_DIR$/qa_python/test_pytest_markers.py" />
       </list>
     </option>
   </component>
@@ -527,16 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="23" />
-          <folding>
-            <marker date="1537348045788" expanded="true" signature="397:402" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -549,32 +539,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_parametrized_tests.py">
+    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="23" />
           <folding>
-            <marker date="1537443365669" expanded="true" signature="554:555" ph="..." />
-            <marker date="1537443365669" expanded="true" signature="554:560" ph="..." />
+            <marker date="1537348045788" expanded="true" signature="397:402" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_markers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+        <state relative-caret-position="118">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
           <folding>
-            <marker date="1537443473088" expanded="true" signature="630:635" ph="..." />
-            <marker date="1537443473088" expanded="true" signature="850:855" ph="..." />
+            <marker date="1537444207677" expanded="true" signature="633:638" ph="..." />
+            <marker date="1537444207677" expanded="true" signature="855:860" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
+    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_parametrized_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1537443365669" expanded="true" signature="554:555" ph="..." />
+            <marker date="1537443365669" expanded="true" signature="554:560" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

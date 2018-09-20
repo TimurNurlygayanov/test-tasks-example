@@ -8,7 +8,7 @@
 # How To Run all tests:
 #    pytest -m my_smoke_test_suite
 # To run only one positive test:
-#    pytest -m my_alway_green_tests
+#    pytest -m my_always_green_tests
 #
 
 import pytest
@@ -16,11 +16,11 @@ import pytest
 
 # Note: @pytest.mark.<tag> used to mark test cases with custom tags:
 @pytest.mark.my_smoke_test_suite
-@pytest.mark.my_alway_green_tests
+@pytest.mark.my_always_green_tests
 def test_simple01():
     """ To run only this test you should run the following command:
 
-        pytest -m my_alway_green_tests
+        pytest -m my_always_green_tests
 
     """
 
@@ -28,11 +28,11 @@ def test_simple01():
 
 
 @pytest.mark.my_smoke_test_suite
-@pytest.mark.my_alway_red_tests
+@pytest.mark.my_always_red_tests
 def test_simple02():
     """ To run only this test you should run the following command:
 
-        pytest -m my_alway_red_tests
+        pytest -m my_always_red_tests
 
     """
 
