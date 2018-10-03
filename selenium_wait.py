@@ -7,11 +7,7 @@
 import time
 
 
-def open_page_simple(web_browser, url):
-    """ This is simple function which checks that page loaded completely. """
-
-    web_browser.get(url)
-
+def wait_for_page_loaded(browser):
     page_loaded = False
 
     # Wait until page loaded (and scroll it, to make sure all objects will be loaded):
@@ -19,8 +15,18 @@ def open_page_simple(web_browser, url):
         time.sleep(1)
 
         # Scroll down and wait when page will be loaded:
-        web_browser.execute_script('window.scrollTo(0, document.body.scrollHeight);')
-        page_loaded = web_browser.execute_script("return document.readyState == 'complete';")
+        browser.execute_script('window.scrollTo(0, document.body.scrollHeight);')
+        page_loaded = browser.execute_script("return document.readyState == 'complete';")
+
+    time.sleep(5)
+
+
+def open_page_simple(web_browser, url):
+    """ This is simple function which checks that page loaded completely. """
+
+    web_browser.get(url)
+
+    wait_for_page_loaded(web_browser)
 
     # Go up:
     web_browser.execute_script('window.scrollTo(document.body.scrollHeight, 0);')
