@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/qa_python/lesson003/unittests_example001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qa_python/lesson003/product_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/pytest_example0001.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson001/pytest_example0001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/requests_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson001/requests_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_001.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson001/test_pytest_001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_markers.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson001/test_pytest_markers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_parametrized_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson002/test_pytest_parametrized_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/test_pytest_simple_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson001/test_pytest_simple_fixture.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,27 +23,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="26" />
+          <entry key="py" value="27" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="26" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="6165" />
+          <entry key="py" value="6813" />
           <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="6165" />
+          <entry key="Python" value="6813" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -85,14 +78,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson003/unittests_example001.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="23" />
               <folding>
                 <marker date="1538920598694" expanded="true" signature="306:312" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson003/product_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -157,18 +159,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa_python/lesson001/pytest_example0001.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -216,6 +206,7 @@
         <option value="$PROJECT_DIR$/qa_python/rest_api_service_example.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson003/unittests_example001.py" />
+        <option value="$PROJECT_DIR$/qa_python/lesson003/product_example.py" />
       </list>
     </option>
   </component>
@@ -631,11 +622,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson003/unittests_example001.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="23" />
           <folding>
             <marker date="1538920598694" expanded="true" signature="306:312" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson003/product_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
