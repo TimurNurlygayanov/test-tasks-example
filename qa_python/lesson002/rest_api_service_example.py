@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- encoding=utf8 -*-
+
 from uuid import uuid4
 import flask
 from flask import Flask
