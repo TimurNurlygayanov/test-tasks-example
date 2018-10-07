@@ -28,4 +28,4 @@ def test_ya_page_title(web_browser):
 
     web_browser.get('https://ya.ru')
 
-    assert "Яндекс" in browser.title
+    assert "Яндекс" in web_browser.title
