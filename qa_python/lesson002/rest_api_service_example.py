@@ -22,7 +22,7 @@ def verify_cookie(req):
 
     cookie = req.cookies.get('my_cookie', '')
 
-    return bool(cookie in SESSIONS)
+    return cookie in SESSIONS
 
 
 @app.route('/login', methods=['GET'])
@@ -42,6 +42,8 @@ def get_auth():
 def get_list_of_books():
     """ This function returns the list of books. """
 
+    global BOOKS
+
     if verify_cookie(request):
         sort_filter = request.args.get('sort', '')
         list_limit = int(request.args.get('limit', -1))
@@ -54,6 +56,8 @@ def get_list_of_books():
             result = result[:list_limit]
 
         return flask.jsonify(BOOKS)
+
+    return ''
 
 
 @app.route('/books/<book_id>', methods=['GET'])
@@ -92,12 +96,20 @@ def delete_book(book_id):
 def add_book():
     """ This function adds new book to the list. """
 
+    global BOOKS
+
     if verify_cookie(request):
         book_id = str(uuid4())
         title = request.values.get('title', '')
         author = request.values.get('author', 'No Name')
 
-        BOOKS.append({'id': book_id, 'title': title, 'author': author})
+        new_book = {'id': book_id, 'title': title, 'author': author}
+
+        BOOKS.append(new_book)
+
+        return flask.jsonify(new_book)
+
+    return flask.jsonify('ERROR')
 
 
 if __name__ == "__main__":
