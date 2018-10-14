@@ -17,6 +17,10 @@ BOOKS = []
 SESSIONS = []
 
 
+class InvalidUsage(Exception):
+    status_code = 400
+
+
 def verify_cookie(req):
     """ This function verifies cookie. """
 
@@ -57,7 +61,7 @@ def get_list_of_books():
 
         return flask.jsonify(BOOKS)
 
-    return ''
+    raise InvalidUsage('No valid auth cookie provided!')
 
 
 @app.route('/books/<book_id>', methods=['GET'])
@@ -73,6 +77,28 @@ def get_book(book_id):
 
         return flask.jsonify(result)
 
+    raise InvalidUsage('No valid auth cookie provided!')
+
+
+@app.route('/books/<book_id>', methods=['PUT'])
+def get_book(book_id):
+    """ This function updates information about some book. """
+
+    if verify_cookie(request):
+
+        for i, book in enumerate(BOOKS):
+            # Find the book with this ID:
+            if book['id'] == book_id:
+                book['title'] = request.values.get('title', book['title'])
+                book['author'] = request.values.get('title', book['author'])
+
+                # Update information about this book:
+                BOOKS[i] = book
+
+                return flask.jsonify(book)
+
+    raise InvalidUsage('No valid auth cookie provided!')
+
 
 @app.route('/books/<book_id>', methods=['DELETE'])
 def delete_book(book_id):
@@ -81,15 +107,14 @@ def delete_book(book_id):
     global BOOKS
 
     if verify_cookie(request):
-        result = {}
-
         # Create new list of book and skip one book
         # with specified id:
         new_books = [b for b in BOOKS if b['id'] != book_id]
-
         BOOKS = new_books
 
-        return flask.jsonify(result)
+        return flask.jsonify({'deleted': book_id})
+
+    raise InvalidUsage('No valid auth cookie provided!')
 
 
 @app.route('/add_book', methods=['POST'])
@@ -105,11 +130,12 @@ def add_book():
 
         new_book = {'id': book_id, 'title': title, 'author': author}
 
+        # add new book to the list:
         BOOKS.append(new_book)
 
         return flask.jsonify(new_book)
 
-    return flask.jsonify('ERROR')
+    raise InvalidUsage('No valid auth cookie provided!')
 
 
 if __name__ == "__main__":
