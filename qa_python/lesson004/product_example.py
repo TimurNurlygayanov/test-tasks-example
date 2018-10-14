@@ -11,7 +11,8 @@ import requests
 class MySuperProgram():
 
     def read_string_from_file(self):
-        """ This function reads first string in file and returns it. """
+        """ This function reads first string in file and
+            returns this string. """
 
         with open('my_file.txt', 'r') as f:
             result = f.readline()
@@ -21,6 +22,8 @@ class MySuperProgram():
     def read_and_sort_all_strings(self):
         """ This function reads all strings from file and returns
             sorted list of strings.
+
+            Note: this function has hidden bug!
         """
 
         with open('my_file.txt', 'r') as f:
