@@ -4,6 +4,7 @@
 import requests
 from requests.auth import HTTPBasicAuth
 from configparser import ConfigParser
+from uuid import UUID
 
 config = ConfigParser()
 config.read('test_config.conf')
@@ -18,6 +19,17 @@ def get_conf_param(section, parameter, default_value):
 user = get_conf_param('DEFAULT', 'user', '')
 password = get_conf_param('DEFAULT', 'password', '')
 host = get_conf_param('DEFAULT', 'host', 'http://0.0.0.0:7000')
+
+
+def validate_uuid4(uuid_string):
+    """ This function allows to check UUID. """
+
+    try:
+        val = UUID(uuid_string, version=4)
+    except ValueError:
+        return False
+
+    return val.hex == uuid_string
 
 
 def get(url, cookies=None, auth_data=None):
