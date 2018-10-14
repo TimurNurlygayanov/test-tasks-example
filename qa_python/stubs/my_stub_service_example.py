@@ -37,3 +37,7 @@ def get_product():
 
     # Return result:
     return flask.jsonify(product)
+
+
+if __name__ == "__main__":
+    app.run('0.0.0.0', port=5000)

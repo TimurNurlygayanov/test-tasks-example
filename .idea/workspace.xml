@@ -36,14 +36,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="py" value="11673" />
+          <entry key="py" value="11676" />
           <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="48" />
-          <entry key="Python" value="11673" />
+          <entry key="Python" value="11676" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="50" />
+            <state relative-caret-position="534">
+              <caret line="114" selection-start-line="114" selection-end-line="116" />
               <folding>
                 <element signature="e#44#66#0" expanded="true" />
               </folding>
@@ -94,11 +94,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qa_python/stubs/my_stub_service_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="580">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
-                <marker date="1539508250493" expanded="true" signature="534:539" ph="..." />
+                <marker date="1539508448666" expanded="true" signature="534:539" ph="..." />
               </folding>
             </state>
           </provider>
@@ -667,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="50" />
+        <state relative-caret-position="534">
+          <caret line="114" selection-start-line="114" selection-end-line="116" />
           <folding>
             <element signature="e#44#66#0" expanded="true" />
           </folding>
@@ -677,11 +677,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/stubs/my_stub_service_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="580">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-            <marker date="1539508250493" expanded="true" signature="534:539" ph="..." />
+            <marker date="1539508448666" expanded="true" signature="534:539" ph="..." />
           </folding>
         </state>
       </provider>
