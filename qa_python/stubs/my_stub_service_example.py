@@ -16,6 +16,7 @@ app = Flask(__name__)
 PRODUCTS = [{"id": 76699046,"name": "apple","price": 12.10}]
 
 
+@app.route('/get_product', methods=['POST'])
 def get_product():
     """ This is very simple stub for 'get product' REST API function. """
 
