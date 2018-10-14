@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qa_python/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qa_python/lesson002/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qa_python/lesson002/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qa_python/lesson002/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qa_python/lesson002/test_config.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/lesson002/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/lesson002/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson002/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,27 +26,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="49" />
+          <entry key="conf" value="1" />
+          <entry key="py" value="50" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="49" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="conf" value="41" />
           <entry key="dummy" value="15" />
-          <entry key="py" value="12482" />
+          <entry key="py" value="13120" />
           <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="48" />
-          <entry key="Python" value="12482" />
+          <entry key="PLAIN_TEXT" value="89" />
+          <entry key="Python" value="13120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -58,22 +57,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa_python/lesson/rest_api_service.py">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_pytest_parametrized_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <marker date="1539366042038" expanded="true" signature="95:100" ph="..." />
+                <marker date="1537443365669" expanded="true" signature="554:555" ph="..." />
+                <marker date="1537443365669" expanded="true" signature="554:560" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="132" column="35" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+            <state relative-caret-position="204">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="50" />
               <folding>
                 <element signature="e#44#66#0" expanded="true" />
               </folding>
@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_my_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
+            <state relative-caret-position="289">
+              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
                 <marker date="1539377873815" expanded="true" signature="254:475" ph="..." />
@@ -113,13 +113,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson002/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="165">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="e#44#59#0" expanded="true" />
-                <marker date="1539510889092" expanded="true" signature="230:235" ph="..." />
-                <marker date="1539510889092" expanded="true" signature="857:862" ph="..." />
+                <marker date="1539514943454" expanded="true" signature="696:701" ph="..." />
+                <marker date="1539514943454" expanded="true" signature="2177:2356" ph="..." />
+                <marker date="1539514943454" expanded="true" signature="2376:2381" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_config.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -136,11 +146,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson002/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa_python/lesson002/config.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -211,12 +216,13 @@
         <option value="$PROJECT_DIR$/qa_python/lesson/rest_api_service.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson002/test_my_service.py" />
         <option value="$PROJECT_DIR$/qa_python/stubs/my_stub_service_example.py" />
-        <option value="$PROJECT_DIR$/qa_python/lesson002/config.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson002/__init__.py" />
         <option value="$PROJECT_DIR$/qa_python/__init__.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/qa_python/lesson002/utils.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py" />
+        <option value="$PROJECT_DIR$/qa_python/lesson002/config.py" />
+        <option value="$PROJECT_DIR$/qa_python/lesson002/utils.py" />
+        <option value="$PROJECT_DIR$/qa_python/lesson002/test_config.conf" />
       </list>
     </option>
   </component>
@@ -383,7 +389,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/url_getter/crawler_fast_agent_tmall.py" />
     <entry file="file://$PROJECT_DIR$/url_getter/templates/detailed_progress.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -568,17 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_pytest_parametrized_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1537443365669" expanded="true" signature="554:555" ph="..." />
-            <marker date="1537443365669" expanded="true" signature="554:560" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson001/test_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -689,21 +683,6 @@
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson002/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#44#59#0" expanded="true" />
-            <marker date="1539510889092" expanded="true" signature="230:235" ph="..." />
-            <marker date="1539510889092" expanded="true" signature="857:862" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson002/config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson002/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -711,10 +690,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_pytest_parametrized_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1537443365669" expanded="true" signature="554:555" ph="..." />
+            <marker date="1537443365669" expanded="true" signature="554:560" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_my_service.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="289">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
             <marker date="1539377873815" expanded="true" signature="254:475" ph="..." />
@@ -725,13 +715,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson002/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson002/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="e#44#59#0" expanded="true" />
+            <marker date="1539514943454" expanded="true" signature="696:701" ph="..." />
+            <marker date="1539514943454" expanded="true" signature="2177:2356" ph="..." />
+            <marker date="1539514943454" expanded="true" signature="2376:2381" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="132" column="35" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="50" />
           <folding>
             <element signature="e#44#66#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_config.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
