@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/qa_python/decorator_with_parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/lesson003/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson003/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +27,12 @@
         <counts>
           <entry key="conf" value="1" />
           <entry key="py" value="56" />
-          <entry key="txt" value="4" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="56" />
         </counts>
       </usages-collector>
@@ -38,14 +40,14 @@
         <counts>
           <entry key="conf" value="41" />
           <entry key="dummy" value="15" />
-          <entry key="py" value="14486" />
-          <entry key="txt" value="33" />
+          <entry key="py" value="14488" />
+          <entry key="txt" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="89" />
-          <entry key="Python" value="14486" />
+          <entry key="PLAIN_TEXT" value="90" />
+          <entry key="Python" value="14488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -53,19 +55,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_pytest_parametrized_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <marker date="1537443365669" expanded="true" signature="554:555" ph="..." />
-                <marker date="1537443365669" expanded="true" signature="554:560" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/conftest_001.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/qa_python/lesson003/utils.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#44#59#0" expanded="true" />
                 <marker date="1539516066995" expanded="true" signature="640:774" ph="..." />
@@ -134,23 +123,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1539516603547" expanded="true" signature="510:610" ph="..." />
-                <marker date="1539516603547" expanded="true" signature="804:809" ph="..." />
-                <marker date="1539516603547" expanded="true" signature="1427:1432" ph="..." />
+                <marker date="1539518360882" expanded="true" signature="554:654" ph="..." />
+                <marker date="1539518360882" expanded="true" signature="848:853" ph="..." />
+                <marker date="1539518360882" expanded="true" signature="1471:1476" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson003/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/decorator_with_parameters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="23" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -191,7 +189,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FxPro/main.py" />
         <option value="$PROJECT_DIR$/parallel_func.py" />
         <option value="$PROJECT_DIR$/check_parsing_speed.py" />
         <option value="$PROJECT_DIR$/run.sh" />
@@ -238,10 +235,11 @@
         <option value="$PROJECT_DIR$/qa_python/lesson002/test_config.conf" />
         <option value="$PROJECT_DIR$/qa_python/lesson002/test_scenarios.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson003/utils.py" />
-        <option value="$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson002/rest_api_service_example.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson003/rest_api_service_example.py" />
         <option value="$PROJECT_DIR$/qa_python/decorator_with_parameters.py" />
+        <option value="$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py" />
+        <option value="$PROJECT_DIR$/qa_python/lesson003/requirements.txt" />
       </list>
     </option>
   </component>
@@ -675,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson003/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_config.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -703,7 +694,7 @@
     <entry file="file://$PROJECT_DIR$/qa_python/lesson003/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#44#59#0" expanded="true" />
             <marker date="1539516066995" expanded="true" signature="640:774" ph="..." />
@@ -745,19 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="38" column="10" lean-forward="true" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1539516603547" expanded="true" signature="510:610" ph="..." />
-            <marker date="1539516603547" expanded="true" signature="804:809" ph="..." />
-            <marker date="1539516603547" expanded="true" signature="1427:1432" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/conftest_doctrings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -784,11 +762,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/decorator_with_parameters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="23" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1539518360882" expanded="true" signature="554:654" ph="..." />
+            <marker date="1539518360882" expanded="true" signature="848:853" ph="..." />
+            <marker date="1539518360882" expanded="true" signature="1471:1476" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson003/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

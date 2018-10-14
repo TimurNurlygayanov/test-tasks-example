@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- encoding=utf8 -*-
+
 import pytest
 
 from .utils import add_book
