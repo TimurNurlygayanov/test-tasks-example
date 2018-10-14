@@ -29,7 +29,7 @@ def validate_uuid4(uuid_string):
     except ValueError:
         return False
 
-    return val.hex == uuid_string
+    return val.hex == uuid_string.replace('-', '')
 
 
 def get(url, cookies=None, auth_data=None):
@@ -98,7 +98,7 @@ def auth():
     data = response.json()
 
     # Return auth_cookie:
-    yield data['auth_cookie']
+    return {'my_cookie': data['auth_cookie']}
 
 
 def get_all_books():

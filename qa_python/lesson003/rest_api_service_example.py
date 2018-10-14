@@ -90,7 +90,7 @@ def update_book(book_id):
             # Find the book with this ID:
             if book['id'] == book_id:
                 book['title'] = request.values.get('title', book['title'])
-                book['author'] = request.values.get('title', book['author'])
+                book['author'] = request.values.get('author', book['author'])
 
                 # Update information about this book:
                 BOOKS[i] = book
