@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+# -*- encoding=utf8 -*-
+
 import pytest
 import requests
 from requests.auth import HTTPBasicAuth
