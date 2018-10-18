@@ -11,8 +11,11 @@ from .utils import delete_book
 from .utils import validate_uuid4
 
 
-@pytest.mark.parametrize('title', ['', 'test', u'тест'])
-@pytest.mark.parametrize('author', ['', 'Teodor Drayzer', u'Пушкин'])
+@pytest.mark.parametrize('title', ['', 'test', u'тест',
+                                   '*^&%$%#', 'a'*1000000])
+@pytest.mark.parametrize('author', ['', 'Teodor Drayzer',
+                                    u'Пушкин', '#$%$^',
+                                    '!'*1000000])
 def test_create_new_book(title, author):
     """ Check 'create book' method with different values of
         Title and Author.

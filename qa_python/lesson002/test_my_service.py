@@ -113,3 +113,25 @@ def test_delete_book(auth_cookie):
 
     # Verify that book is not presented in the list:
     assert new_book not in list_of_all_books
+
+
+def test_delete_of_book(auth_cookie):
+    url = 'http://localhost:7000/add_book'
+    new_book = {'title': '9999', 'author': '100000 :)'}
+
+    result = requests.post(url, cookies={'my_cookie': auth_cookie},
+                           data=new_book)
+    data = result.json()
+
+    new_book['id'] = data['id']
+
+    url = 'http://localhost:7000/books/{0}'.format(new_book['id'])
+    result = requests.delete(url,
+                             cookies={'my_cookie': auth_cookie})
+
+    result = requests.get(url, cookies={'my_cookie': auth_cookie})
+    list_of_all_books = result.json()
+
+    print(list_of_all_books)
+
+    assert new_book not in list_of_all_books
