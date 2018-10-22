@@ -29,7 +29,7 @@ class MySuperProgram():
         with open('my_file.txt', 'r') as f:
             result = f.readlines()
 
-        return result.sort()
+        return sorted(result)
 
     def get_current_ip(self):
         """ This function returns the current external ip of the host. """

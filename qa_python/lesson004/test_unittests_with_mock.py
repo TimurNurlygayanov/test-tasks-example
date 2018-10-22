@@ -38,7 +38,8 @@ class MyTests(unittest.TestCase):
         prog = MySuperProgram()
         all_strings = prog.read_and_sort_all_strings()
 
-        assert all_strings == ['test1', 'test2', 'test3']
+        print(all_strings)
+        assert all_strings == ['test1\n', 'test2\n', 'test3\n']
 
 
 if __name__ == '__main__':
