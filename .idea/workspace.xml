@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/qa_python/lesson004/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_without_ram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_pytest_ru.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qa_python/lesson002/very_simple_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qa_python/lesson004/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/lesson004/product_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson004/product_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/lesson004/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson004/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,31 +29,31 @@
         <counts>
           <entry key="conf" value="2" />
           <entry key="md" value="1" />
-          <entry key="py" value="78" />
-          <entry key="txt" value="7" />
+          <entry key="py" value="80" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="78" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="conf" value="41" />
           <entry key="dummy" value="15" />
-          <entry key="md" value="125" />
-          <entry key="py" value="15321" />
-          <entry key="txt" value="34" />
+          <entry key="md" value="157" />
+          <entry key="py" value="15476" />
+          <entry key="txt" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="125" />
-          <entry key="PLAIN_TEXT" value="90" />
-          <entry key="Python" value="15321" />
+          <entry key="Markdown" value="157" />
+          <entry key="PLAIN_TEXT" value="104" />
+          <entry key="Python" value="15476" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -71,15 +69,6 @@
               <folding>
                 <element signature="e#44#66#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sort_without_ram.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -126,23 +115,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson004/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium_wait.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson002/very_simple_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson004/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_my_service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="e#44#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,15 +165,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="825">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_my_service.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="134" column="27" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -180,8 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/requests_ssl.py" />
-        <option value="$PROJECT_DIR$/ubuntu_vnc.sh" />
         <option value="$PROJECT_DIR$/qa_python/pytest_001.py" />
         <option value="$PROJECT_DIR$/qa_python/test_pytest_001.py" />
         <option value="$PROJECT_DIR$/qa_python/conftest.py" />
@@ -230,7 +232,9 @@
         <option value="$PROJECT_DIR$/test_pytest_ru.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson004/product_example.py" />
+        <option value="$PROJECT_DIR$/qa_python/lesson004/requirements.txt" />
         <option value="$PROJECT_DIR$/qa_python/lesson004/README.md" />
+        <option value="$PROJECT_DIR$/qa_python/lesson002/very_simple_example.py" />
       </list>
     </option>
   </component>
@@ -403,20 +407,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requests_ssl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many_requests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/make_19.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -662,13 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_my_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="134" column="27" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sort_without_ram.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -734,13 +717,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson004/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson004/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson002/test_my_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#44#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson002/very_simple_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
