@@ -19,6 +19,13 @@ from unittest.mock import mock_open
 from product_example import MySuperProgram
 
 
+def mock_get_request(*args, **kwargs):
+    result = MagicMock()
+    result.json = MagicMock(return_value={'ip': '1.1.1.1'})
+
+    return result
+
+
 class MyTests(unittest.TestCase):
 
     @patch('product_example.open', mock_open(read_data='test1\ntest3\ntest2\n'))
@@ -40,6 +47,13 @@ class MyTests(unittest.TestCase):
 
         print(all_strings)
         assert all_strings == ['test1\n', 'test2\n', 'test3\n']
+
+    @patch('requests.get', side_effect=mock_get_request)
+    def test_get_current_ip(self, mock_get):
+        prog = MySuperProgram()
+        ip = prog.get_current_ip()
+
+        assert ip == '1.1.1.1'
 
 
 if __name__ == '__main__':
