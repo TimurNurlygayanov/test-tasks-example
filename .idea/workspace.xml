@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/lesson004/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson004/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/lesson004/product_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson004/product_example.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -105,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson004/product_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="345">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -118,8 +118,8 @@
         <entry file="file://$PROJECT_DIR$/qa_python/lesson004/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -229,11 +229,11 @@
         <option value="$PROJECT_DIR$/qa_python/lesson003/rest_api_service_example.py" />
         <option value="$PROJECT_DIR$/sort_without_ram.py" />
         <option value="$PROJECT_DIR$/test_pytest_ru.py" />
-        <option value="$PROJECT_DIR$/qa_python/lesson004/product_example.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson004/requirements.txt" />
-        <option value="$PROJECT_DIR$/qa_python/lesson004/README.md" />
         <option value="$PROJECT_DIR$/qa_python/lesson002/very_simple_example.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py" />
+        <option value="$PROJECT_DIR$/qa_python/lesson004/README.md" />
+        <option value="$PROJECT_DIR$/qa_python/lesson004/product_example.py" />
       </list>
     </option>
   </component>
@@ -669,16 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson004/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson004/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -720,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson004/product_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -735,6 +718,23 @@
             <element signature="e#290#305#0" expanded="true" />
             <marker date="1540309296430" expanded="true" signature="494:601" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson004/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson004/product_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>

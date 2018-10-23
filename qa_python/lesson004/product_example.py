@@ -22,8 +22,6 @@ class MySuperProgram():
     def read_and_sort_all_strings(self):
         """ This function reads all strings from file and returns
             sorted list of strings.
-
-            Note: this function has hidden bug!
         """
 
         with open('my_file.txt', 'r') as f:
