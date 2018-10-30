@@ -55,6 +55,9 @@ class MyTests(unittest.TestCase):
 
         assert ip == '1.1.1.1'
 
+        expected_url = 'https://api.ipify.org/?format=json'
+        mock_get.assert_called_once_with(expected_url)
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -5,6 +5,7 @@
 # 1) Install virtualenv:
 #    python3 -m venv ./env
 #    source ./env/bin/activate
+#    pip install -r requirements.txt
 # 2) Run tests:
 #    nosetests -s qa_python/lesson003/unittests_example001.py
 #
@@ -15,6 +16,7 @@ import unittest
 class MyFirstTests(unittest.TestCase):
 
     test_me = []
+    a = ''
 
     def setUp(self):
         print("Hi, I'm a function which will be executed before each test!")
