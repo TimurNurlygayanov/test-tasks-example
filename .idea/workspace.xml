@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/qa_python/lesson003/python_put_withdifferent_body.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qa_python/lesson004/magic_moc_example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/lesson004/unittests_example001.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson004/unittests_example001.py" afterDir="false" />
-    </list>
+    <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +12,7 @@
     <session id="1457540638">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="13" />
           <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.2" value="1" />
