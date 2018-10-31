@@ -1,0 +1,35 @@
+#!/usr/bin/python3
+# -*- encoding=utf8 -*-
+
+# Here you can find very simple example of the ussage Selenium with PyTest.
+# More info: https://pytest-selenium.readthedocs.io/en/latest/user_guide.html
+#
+# How to run:
+#  1) Download geko driver for Chrome here:
+#     https://chromedriver.storage.googleapis.com/index.html?path=2.43/
+#  2) Install all requirements:
+#     pip install -r requirements.txt
+#  3) Run tests:
+#     python3 -m pytest -v --driver Chrome --driver-path /tests/chrome test_selenium_simple.py
+#
+
+
+def test_search_example(selenium):
+    """ Search some phrase in google and make a screenshot of the page. """
+
+    # Open google search page:
+    selenium.get('https://google.com')
+
+    # Find the field for search text input:
+    search_input = selenium.find_element_by_id('lst-ib')
+
+    # Enter the text for search:
+    search_input.clear()
+    search_input.send_keys('my first selenium test for Web UI!')
+
+    # Click Search:
+    search_button = selenium.find_element_by_name('btnK')
+    search_button.click()
+
+    # Make the screenshot of browser window:
+    selenium.save_screenshot('result.png')
