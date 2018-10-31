@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 # -*- encoding=utf8 -*-
 
-# Here you can find very simple example of the ussage Selenium with PyTest.
-# More info: https://pytest-selenium.readthedocs.io/en/latest/user_guide.html
+# You can find very simple example of the ussage Selenium with PyTest in this file.
+#
+# More info about pytest-selenium:
+#    https://pytest-selenium.readthedocs.io/en/latest/user_guide.html
 #
 # How to run:
 #  1) Download geko driver for Chrome here:
