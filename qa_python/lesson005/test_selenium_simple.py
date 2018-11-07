@@ -15,12 +15,16 @@
 #     python3 -m pytest -v --driver Chrome --driver-path /tests/chrome test_selenium_simple.py
 #
 
+import time
+
 
 def test_search_example(selenium):
     """ Search some phrase in google and make a screenshot of the page. """
 
     # Open google search page:
     selenium.get('https://google.com')
+
+    time.sleep(10)
 
     # Find the field for search text input:
     search_input = selenium.find_element_by_id('lst-ib')
@@ -29,9 +33,13 @@ def test_search_example(selenium):
     search_input.clear()
     search_input.send_keys('my first selenium test for Web UI!')
 
+    time.sleep(10)
+
     # Click Search:
     search_button = selenium.find_element_by_name('btnK')
     search_button.click()
+
+    time.sleep(10)
 
     # Make the screenshot of browser window:
     selenium.save_screenshot('result.png')
