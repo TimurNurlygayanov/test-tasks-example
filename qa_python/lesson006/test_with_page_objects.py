@@ -1,17 +1,17 @@
 #!/usr/bin/python3
 # -*- encoding=utf8 -*-
 
-from pages import AliExpressPage
+from pages import AliExpressMainPage
 import time
 
 
-def test_search_simple_example(web_browser):
-    page = AliExpressPage(web_browser)
+def test_search_check_number_of_results2(web_browser):
+    """ Check that on main Ali Express page we have at least 47
+        results for popular search requests.
+    """
 
-    page.search_field = 'iphone X'
+    page = AliExpressMainPage(web_browser)
 
-    page.search_btn.click()
+    search_page = page.search('iphone X')
 
-    page.w.save_screenshot('test.png')
-
-    assert len(page.results) == 47, 'Not enough results found!'
+    assert len(search_page.results) == 47, 'Not enough results found!'
