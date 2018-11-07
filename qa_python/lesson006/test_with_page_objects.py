@@ -5,8 +5,8 @@ from pages import AliExpressPage
 import time
 
 
-def test_search_simple_example(selenium):
-    page = AliExpressPage(selenium)
+def test_search_simple_example(web_browser):
+    page = AliExpressPage(web_browser)
 
     page.search_field = 'iphone X'
 
