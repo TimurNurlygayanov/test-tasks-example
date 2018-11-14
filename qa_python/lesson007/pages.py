@@ -10,6 +10,7 @@ from page_objects import MultiPageElement
 
 
 def wait_page_loaded(driver):
+    time.sleep(2)
     page_loaded = False
 
     while not page_loaded:
@@ -44,7 +45,7 @@ class OzonSearchPage(PageObject):
     apply_filter = PageElement(xpath='//button[contains(text(), "Показать")]')
     products_prices = MultiPageElement(xpath='//span[@class="price-number"]/span')
     results_links = MultiPageElement(xpath='//a[@class="text-link name-link"]')
-    categories = MultiPageElement(xpath='//input[@data-test-id="results-navi-level2"]')
+    categories = MultiPageElement(xpath='//a[@class="category-link"]')
     filter_new_products = PageElement(xpath='//span[contains(text(), "Новинки")]')
     filter_popular_products = PageElement(xpath='//span[contains(text(), "Бестселлеры")]')
     filter_low_price_products = PageElement(xpath='//span[contains(text(), "Уцененный товар")]')
@@ -59,3 +60,7 @@ class OzonSearchPage(PageObject):
 
     def go_back(self):
         self.w.back()
+        wait_page_loaded(self.w)
+
+    def wait_page_loaded(self):
+        wait_page_loaded(self.w)
