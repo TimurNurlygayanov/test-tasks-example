@@ -48,7 +48,7 @@ def test_check_search(web_browser, text):
 
 @pytest.mark.ozon_smoke_ui
 def test_check_price_filter_min(web_browser):
-    """ Check that filters by minimum price works fine.
+    """ Check that filter by minimum price works fine.
 
         Steps:
         1) Open main page and search some word
@@ -124,8 +124,9 @@ def test_check_price_filter_max(web_browser):
             assert convert_price(price.text) <= 1000, 'Wrong price: {0}'.format(price.text)
 
 
+@pytest.mark.run
 @pytest.mark.ozon_smoke_ui
-@pytest.mark.skip(reason='Need to debug')
+# @pytest.mark.skip(reason='Need to debug')
 def test_check_categories(web_browser):
     """ Check that all categories have some products.
 

@@ -48,7 +48,6 @@ def web_browser(request, selenium):
             pass # just ignore any errors here
 
 
-
 def get_test_case_docstring(item):
     """ This function gets doc string from test case and format it
         to show this docstring instead of the test case name in reports.
@@ -58,7 +57,7 @@ def get_test_case_docstring(item):
 
     if item._obj.__doc__:
         # Remove extra whitespaces from the doc string:
-        name = str(item._obj.__doc__.strip('.')[0]).strip()
+        name = str(item._obj.__doc__.split('.')[0]).strip()
         full_name = ' '.join(name.split())
 
         # Generate the list of parameters for parametrized test cases:
@@ -100,3 +99,14 @@ def pytest_collection_finish(session):
                 print(full_name)
 
         pytest.exit('Done!')
+
+
+@pytest.hookimpl(hookwrapper=True, tryfirst=True)
+def pytest_runtest_makereport(item, call):
+    # This function helps to detect that some test failed
+    # and pass this information to teardown:
+
+    outcome = yield
+    rep = outcome.get_result()
+    setattr(item, "rep_" + rep.when, rep)
+    return rep

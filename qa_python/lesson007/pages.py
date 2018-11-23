@@ -31,8 +31,9 @@ class OzonMainPage(PageObject):
         self.search_text_field = text
 
         action = ActionChains(self.w)
-        action.click(self.search_btn).click_and_hold(self.search_btn).\
+        action.click_and_hold(self.search_btn).\
             pause(0.5).release(self.search_btn).perform()
+
         wait_page_loaded(self.w)
 
         return OzonSearchPage(self.w)

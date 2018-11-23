@@ -1,6 +1,11 @@
 {
-  "": true,
   " Parameters text_\"ipad\"": true,
   " Parameters text_\"\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\"": true,
-  " Parameters text_\"\u043f\u0435\u0447\u0435\u043d\u044c\u043a\u0438\"": true
+  " Parameters text_\"\u043f\u0435\u0447\u0435\u043d\u044c\u043a\u0438\"": true,
+  "Check that all categories have some products": true,
+  "Check that filters by maximum price works fine": true,
+  "Check that filters by minimum price works fine": true,
+  "Check that search page shows some products for any popular request Parameters text_\"ipad\"": true,
+  "Check that search page shows some products for any popular request Parameters text_\"\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\"": true,
+  "Check that search page shows some products for any popular request Parameters text_\"\u043f\u0435\u0447\u0435\u043d\u044c\u043a\u0438\"": true
 }

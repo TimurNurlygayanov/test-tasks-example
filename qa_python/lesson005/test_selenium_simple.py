@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- encoding=utf8 -*-
 
-# You can find very simple example of the ussage Selenium with PyTest in this file.
+# You can find very simple example of the usage Selenium with PyTest in this file.
 #
 # More info about pytest-selenium:
 #    https://pytest-selenium.readthedocs.io/en/latest/user_guide.html
@@ -24,7 +24,7 @@ def test_search_example(selenium):
     # Open google search page:
     selenium.get('https://google.com')
 
-    time.sleep(10)
+    time.sleep(10)  # just for demo purposes, do NOT repeat it on real projects!
 
     # Find the field for search text input:
     search_input = selenium.find_element_by_id('lst-ib')
@@ -33,13 +33,13 @@ def test_search_example(selenium):
     search_input.clear()
     search_input.send_keys('my first selenium test for Web UI!')
 
-    time.sleep(10)
+    time.sleep(10)  # just for demo purposes, do NOT repeat it on real projects!
 
     # Click Search:
     search_button = selenium.find_element_by_name('btnK')
     search_button.click()
 
-    time.sleep(10)
+    time.sleep(10)  # just for demo purposes, do NOT repeat it on real projects!
 
     # Make the screenshot of browser window:
     selenium.save_screenshot('result.png')
