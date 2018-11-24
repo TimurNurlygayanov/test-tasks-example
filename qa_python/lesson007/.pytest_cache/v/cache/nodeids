@@ -1,8 +1,0 @@
-[
-  "Check that search page shows some products for any popular request Parameters text_\"\u043f\u0435\u0447\u0435\u043d\u044c\u043a\u0438\"",
-  "Check that search page shows some products for any popular request Parameters text_\"\u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\"",
-  "Check that search page shows some products for any popular request Parameters text_\"ipad\"",
-  "Check that filters by minimum price works fine",
-  "Check that filters by maximum price works fine",
-  "Check that all categories have some products"
-]
