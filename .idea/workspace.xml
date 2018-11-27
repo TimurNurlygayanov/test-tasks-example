@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa_python/test_selenium_wait_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/selenium_upload_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +15,14 @@
     <session id="1457540638">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
-          <entry key="project.open.time.0" value="16" />
+          <entry key="project.closed" value="38" />
+          <entry key="project.open.time.0" value="17" />
           <entry key="project.open.time.1" value="17" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -31,7 +31,7 @@
           <entry key="html" value="1" />
           <entry key="md" value="8" />
           <entry key="png" value="4" />
-          <entry key="py" value="139" />
+          <entry key="py" value="140" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
@@ -41,7 +41,7 @@
           <entry key="Image" value="4" />
           <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="139" />
+          <entry key="Python" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -65,7 +65,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/selenium_upload_file.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa_python/lesson007/test_ozon.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -194,7 +194,6 @@
         <option value="$PROJECT_DIR$/qa_python/lesson003/requirements.txt" />
         <option value="$PROJECT_DIR$/qa_python/lesson003/utils.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson/test.py" />
-        <option value="$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson002/test_my_service.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson003/rest_api_service_example.py" />
         <option value="$PROJECT_DIR$/sort_without_ram.py" />
@@ -230,6 +229,7 @@
         <option value="$PROJECT_DIR$/qa_python/test_selenium_wait_element.py" />
         <option value="$PROJECT_DIR$/qa_python/selenium_wait_until.py" />
         <option value="$PROJECT_DIR$/qa_python/selenium_upload_file.py" />
+        <option value="$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py" />
       </list>
     </option>
   </component>
@@ -259,7 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,6 +290,12 @@
               <item name="test-tasks-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-tasks-example" type="462c0819:PsiDirectoryNode" />
               <item name="qa_python" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson003" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-tasks-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-tasks-example" type="462c0819:PsiDirectoryNode" />
+              <item name="qa_python" type="462c0819:PsiDirectoryNode" />
               <item name="lesson007" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -308,6 +313,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,13 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -670,10 +669,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/selenium_upload_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson007/test_ozon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson007/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/selenium_wait_until.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -722,24 +742,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/selenium_wait_until.py">
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson007/test_ozon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/selenium_upload_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>

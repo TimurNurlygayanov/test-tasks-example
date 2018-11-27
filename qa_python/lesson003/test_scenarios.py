@@ -3,12 +3,12 @@
 
 import pytest
 
-from .utils import add_book
-from .utils import get_all_books
-from .utils import get_book
-from .utils import update_book
-from .utils import delete_book
-from .utils import validate_uuid4
+from utils import add_book
+from utils import get_all_books
+from utils import get_book
+from utils import update_book
+from utils import delete_book
+from utils import validate_uuid4
 
 
 @pytest.mark.parametrize('title', ['', 'test', u'тест',
