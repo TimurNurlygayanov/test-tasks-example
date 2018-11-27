@@ -1,0 +1,3 @@
+"Status","Name","Duration in ms","Description"
+"failed","allure_pytest_selenium.test_yandex#test_yandex_market_search[кофеварка]","12983"," Check that we can find required products on YandexMarket. "
+"passed","allure_pytest_selenium.test_yandex#test_yandex_market_search[iphone]","13272"," Check that we can find required products on YandexMarket. "

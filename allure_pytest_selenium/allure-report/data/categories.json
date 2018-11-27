@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: No results found!\nassert 0 == 48\n +  where 0 = <bound method ProductsListPage.results_count of <pages.ProductsListPage object at 0x10663fcc0>>()\n +    where <bound method ProductsListPage.results_count of <pages.ProductsListPage object at 0x10663fcc0>> = <pages.ProductsListPage object at 0x10663fcc0>.results_count",
+      "children" : [ {
+        "name" : "test_yandex_market_search[кофеварка]",
+        "uid" : "d7bfae046663e678",
+        "parentUid" : "fafb7c2f250371002f1b9392f5ecbf83",
+        "status" : "failed",
+        "time" : {
+          "start" : 1543067018686,
+          "stop" : 1543067031669,
+          "duration" : 12983
+        },
+        "flaky" : false,
+        "parameters" : [ "'кофеварка'" ]
+      } ],
+      "uid" : "fafb7c2f250371002f1b9392f5ecbf83"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

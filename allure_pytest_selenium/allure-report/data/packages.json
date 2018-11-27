@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "allure_pytest_selenium.test_yandex",
+    "children" : [ {
+      "name" : "test_yandex_market_search[iphone]",
+      "uid" : "bf46e4a76a9a11e1",
+      "parentUid" : "9db118f1ac53fdc235bc2ce95d6b313b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543067002750,
+        "stop" : 1543067016022,
+        "duration" : 13272
+      },
+      "flaky" : false,
+      "parameters" : [ "'iphone'" ]
+    }, {
+      "name" : "test_yandex_market_search[кофеварка]",
+      "uid" : "d7bfae046663e678",
+      "parentUid" : "9db118f1ac53fdc235bc2ce95d6b313b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1543067018686,
+        "stop" : 1543067031669,
+        "duration" : 12983
+      },
+      "flaky" : false,
+      "parameters" : [ "'кофеварка'" ]
+    } ],
+    "uid" : "allure_pytest_selenium.test_yandex"
+  } ]
+}
