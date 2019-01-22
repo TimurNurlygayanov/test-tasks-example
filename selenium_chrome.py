@@ -23,6 +23,9 @@ def start_browsers():
                                    chrome_options=chrome_options,
                                    service_args=["--log-path=/tmp/chrome.log"])
 
+        browser.get_network_conditions()
+        browser.
+
         BROWSERS.append(browser)
 
 
