@@ -1,0 +1,7 @@
+matplotlib
+nltk
+telethon
+configparser
+sklearn
+pandas
+numpy
