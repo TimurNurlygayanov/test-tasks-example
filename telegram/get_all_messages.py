@@ -1,9 +1,25 @@
 #!/usr/bin/python3
 # -*- encoding=utf8 -*-
 
-import re
 import nltk
 from telethon.sync import TelegramClient
+from configparser import ConfigParser
+
+
+config = ConfigParser()
+config.read('/Users/timurnurlygayanov/.config.ini')
+
+
+def get_conf_param(parameter, default_value):
+    result = config.get('DEFAULT', parameter)
+    return result or default_value
+
+
+# Read all parameters from config file:
+name = get_conf_param('name', '')
+api_id = get_conf_param('api_id', '')
+api_hash = get_conf_param('api_hash', '')
+chat = get_conf_param('chat', '')
 
 
 ALL_MESSAGES = []
@@ -22,7 +38,6 @@ for q in ALL_MESSAGES:
         if '?' in str(m) and len(m) > 5:
             ALL_QUESTIONS.append(m)
 
-# ALL_QUESTIONS = [q for q in ALL_MESSAGES if '?' in q]
 
 for q in ALL_QUESTIONS:
     print(q + "\n====\n")
@@ -34,21 +49,7 @@ print('Questions found: {0}'.format(len(ALL_QUESTIONS)))
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
-from sklearn.metrics import adjusted_rand_score
 
-"""
-text_clf = Pipeline([
-    ('vect', CountVectorizer()),
-    ('tfidf', TfidfTransformer()),
-    ('clf', MultinomialNB())
-])
-
-text_clf.fit(ALL_QUESTIONS[:10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-
-res = text_clf.predict(['текст номер три'])
-print(ALL_QUESTIONS[:10])
-print(res)
-"""
 
 stop_words = nltk.corpus.stopwords.words('russian')
 
@@ -58,11 +59,14 @@ X = vectorizer.fit_transform(ALL_QUESTIONS)
 model = KMeans(n_clusters=2, init='k-means++', max_iter=100, n_init=1)
 model.fit(X)
 
+
 print("Top terms per cluster:")
 order_centroids = model.cluster_centers_.argsort()[:, ::-1]
 terms = vectorizer.get_feature_names()
 
+
 print(terms)
+
 
 for i in range(2):
     print("Cluster %d:" % i)
