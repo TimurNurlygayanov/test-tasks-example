@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/telegram/get_all_messages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_chrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_chrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/get_all_messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/get_all_messages.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,70 +12,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allure_pytest_selenium/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1044">
-                <caret line="58" selection-start-line="58" selection-end-line="58" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="e#20#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium_wait.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selenium_chrome.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="47" column="78" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
-              <folding>
-                <element signature="e#20#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/telegram/get_all_messages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="162">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
               <folding>
-                <element signature="e#44#53#0" expanded="true" />
+                <element signature="e#45#56#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson/t.py">
+        <entry file="file://$PROJECT_DIR$/qa_python/conftest_001.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FP/main.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa_python/conftest_doctrings.py">
+        <entry file="file://$PROJECT_DIR$/joom/crawler_joom.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1068" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson/test_page_object_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson/pages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson007/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="1" selection-end-column="23" />
@@ -86,31 +73,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/allure_pytest_selenium/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson007/test_ozon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="315">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa_python/lesson006/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="612">
-                <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="68" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson003/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="e#44#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qa_python/lesson005/requirements.txt">
+        <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_config.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -191,7 +178,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="304" />
+    <option name="y" value="141" />
     <option name="width" value="1832" />
     <option name="height" value="1072" />
   </component>
@@ -226,12 +214,39 @@
             <path>
               <item name="test-tasks-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-tasks-example" type="462c0819:PsiDirectoryNode" />
+              <item name="allure_pytest_selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-tasks-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-tasks-example" type="462c0819:PsiDirectoryNode" />
+              <item name="joom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-tasks-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-tasks-example" type="462c0819:PsiDirectoryNode" />
               <item name="lesson" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test-tasks-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-tasks-example" type="462c0819:PsiDirectoryNode" />
               <item name="qa_python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-tasks-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-tasks-example" type="462c0819:PsiDirectoryNode" />
+              <item name="qa_python" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-tasks-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-tasks-example" type="462c0819:PsiDirectoryNode" />
+              <item name="qa_python" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson003" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="test-tasks-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-tasks-example" type="462c0819:PsiDirectoryNode" />
+              <item name="telegram" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -290,15 +305,15 @@
       <workItem from="1547127153363" duration="773000" />
       <workItem from="1547653077432" duration="313000" />
       <workItem from="1548150358213" duration="1959000" />
-      <workItem from="1548154950252" duration="2343000" />
+      <workItem from="1548154950252" duration="3440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6532000" />
+    <option name="totallyTimeSpent" value="7629000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1832" height="1072" extended-state="0" />
+    <frame x="304" y="141" width="1832" height="1072" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19441341" />
@@ -332,34 +347,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson004/test_unittests_with_mock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson004/magic_moc_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson004/product_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="63" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson003/python_put_withdifferent_body.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson003/rest_api_service_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -418,20 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson/pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson/test_page_object_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson006/yandex_example/test_page_object_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -467,13 +440,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson007/web_service.py" />
-    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/parametrized_fixture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -522,20 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson007/test_ozon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson007/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_scenarios.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -554,13 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/conftest_001.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -694,12 +639,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/test_pytest_002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/conftest_001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FP/main.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joom/crawler_joom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1068" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson/test_page_object_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson/pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson007/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson007/test_ozon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson003/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#44#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qa_python/lesson003/test_config.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/telegram/get_all_messages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="162">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding>
-            <element signature="e#44#53#0" expanded="true" />
+            <element signature="e#45#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
