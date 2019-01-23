@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/telegram/doc_cluster.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/doc_cluster.pkl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/telegram/get_all_messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/get_all_messages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/questions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/xwizard707.session" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/xwizard707.session" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/telegram/get_all_messages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="162" column="64" selection-start-line="162" selection-start-column="64" selection-end-line="162" selection-end-column="64" />
+            <state relative-caret-position="707">
+              <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
               <folding>
                 <element signature="e#196#207#0" expanded="true" />
               </folding>
@@ -305,12 +306,12 @@
       <workItem from="1547653077432" duration="313000" />
       <workItem from="1548150358213" duration="1959000" />
       <workItem from="1548154950252" duration="6740000" />
-      <workItem from="1548240957664" duration="2092000" />
+      <workItem from="1548240957664" duration="3420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13021000" />
+    <option name="totallyTimeSpent" value="14349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="304" y="141" width="1832" height="1072" extended-state="0" />
@@ -648,8 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/telegram/get_all_messages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="162" column="64" selection-start-line="162" selection-start-column="64" selection-end-line="162" selection-end-column="64" />
+        <state relative-caret-position="707">
+          <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
           <folding>
             <element signature="e#196#207#0" expanded="true" />
           </folding>

@@ -46,6 +46,17 @@ api_hash = get_conf_param('api_hash', '')
 chat = get_conf_param('chat', '')
 
 
+def any_question_words(text):
+    words = ['как', 'где', 'какой', 'кто',
+             'когда', 'подскажите']
+
+    for word in words:
+        if word in text:
+            return True
+
+    return False
+
+
 ALL_MESSAGES = []
 ALL_QUESTIONS = []
 
@@ -65,8 +76,9 @@ else:
         msgs = msg.replace('"', '\n').lower().split('\n')
 
         for m in msgs:
-            if '?' in str(m) and len(m) > 5:
-                ALL_QUESTIONS.append(m)
+            if len(m) > 5:
+                if '?' in str(m):
+                    ALL_QUESTIONS.append(m)
 
     with open(filename, 'w') as f:
         f.write('\n'.join(ALL_QUESTIONS))
@@ -146,18 +158,30 @@ dist = 1 - cosine_similarity(tfidf_matrix)
 
 
 num_clusters = 20
+int_previous = 100
+smallest = 100
 
-km = KMeans(n_clusters=num_clusters)
+for num_clusters in range(3, 55):
 
-km.fit(tfidf_matrix)
+    km = KMeans(n_clusters=num_clusters)
 
-clusters = km.labels_.tolist()
+    km.fit(tfidf_matrix)
+
+    interia = km.inertia_
+    print("k: ", num_clusters, " cost: ", interia, '  ', (int_previous-interia)/interia)
+
+    if (int_previous-interia)/interia > 0.0 and smallest > (int_previous-interia)/interia:
+        smallest = (int_previous-interia)/interia
+
+    int_previous = interia
+
+print(smallest)
+
 
 # Dump the model:
-joblib.dump(km,  'doc_cluster.pkl')
-
+# joblib.dump(km,  'doc_cluster.pkl')
 # km = joblib.load('doc_cluster.pkl')
-clusters = km.labels_.tolist()
+# clusters = km.labels_.tolist()
 
 
 predict_me = tfidf_vectorizer.transform(['Какой провайдер лучше?'])
@@ -171,6 +195,7 @@ for i in ALL_QUESTIONS:
     predict_me = tfidf_vectorizer.transform([i])
     if km.predict(predict_me) == predicted_class:
         print(i + '\n=====\n\n')
+
 
 
 """  For grouping and calculations:
