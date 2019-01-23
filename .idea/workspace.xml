@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/telegram/get_all_messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/get_all_messages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/xwizard707.session" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/xwizard707.session" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/telegram/get_all_messages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="235">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="e#45#56#0" expanded="true" />
               </folding>
@@ -305,12 +306,12 @@
       <workItem from="1547127153363" duration="773000" />
       <workItem from="1547653077432" duration="313000" />
       <workItem from="1548150358213" duration="1959000" />
-      <workItem from="1548154950252" duration="3440000" />
+      <workItem from="1548154950252" duration="4204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7629000" />
+    <option name="totallyTimeSpent" value="8393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="304" y="141" width="1832" height="1072" extended-state="0" />
@@ -708,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/telegram/get_all_messages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="235">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="e#45#56#0" expanded="true" />
           </folding>
