@@ -2,6 +2,7 @@
 # -*- encoding=utf8 -*-
 
 import nltk
+import os.path
 from telethon.sync import TelegramClient
 from configparser import ConfigParser
 
@@ -25,18 +26,27 @@ chat = get_conf_param('chat', '')
 ALL_MESSAGES = []
 ALL_QUESTIONS = []
 
-with TelegramClient(name, api_id, api_hash) as client:
-    for message in client.iter_messages(chat):
-        if message.text:
-            ALL_MESSAGES.append(str(message.text))
+filename = 'questions.txt'
+if os.path.isfile(filename):
+    with open(filename, 'r') as f:
+        ALL_QUESTIONS = f.readlines()
+    ALL_QUESTIONS = [q[:-2] for q in ALL_QUESTIONS]
+else:
+    with TelegramClient(name, api_id, api_hash) as client:
+        for message in client.iter_messages(chat):
+            if message.text:
+                ALL_MESSAGES.append(str(message.text))
 
-for q in ALL_MESSAGES:
-    msg = q.replace('.', '\n').replace('(', '\n').replace(')', '\n')
-    msgs = msg.replace('"', '\n').lower().split('\n')
+    for q in ALL_MESSAGES:
+        msg = q.replace('.', '\n').replace('(', '\n').replace(')', '\n')
+        msgs = msg.replace('"', '\n').lower().split('\n')
 
-    for m in msgs:
-        if '?' in str(m) and len(m) > 5:
-            ALL_QUESTIONS.append(m)
+        for m in msgs:
+            if '?' in str(m) and len(m) > 5:
+                ALL_QUESTIONS.append(m)
+
+    with open(filename, 'w') as f:
+        f.write('\n'.join(ALL_QUESTIONS))
 
 
 for q in ALL_QUESTIONS:
