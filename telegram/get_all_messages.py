@@ -53,7 +53,7 @@ filename = 'questions.txt'
 if os.path.isfile(filename):
     with open(filename, 'r') as f:
         ALL_QUESTIONS = f.readlines()
-    ALL_QUESTIONS = [q[:-2] for q in ALL_QUESTIONS]
+    ALL_QUESTIONS = [q for q in ALL_QUESTIONS]
 else:
     with TelegramClient(name, api_id, api_hash) as client:
         for message in client.iter_messages(chat):
@@ -93,7 +93,7 @@ stop_words += ['бол', 'больш', 'будт', 'быт', 'вед', 'впро
                'ил', 'иногд', 'когд', 'конечн', 'куд', 'лучш', 'межд', 'мен', 'мног',
                'мо', 'можн', 'нег', 'нельз', 'нибуд', 'никогд', 'нич', 'опя', 'посл',
                'пот', 'почт', 'разв', 'сво', 'себ', 'совс', 'теб', 'тепер', 'тог',
-               'тогд', 'тож', 'тольк', 'хорош', 'хот', 'чег', 'чут', 'эт', 'оп']
+               'тогд', 'тож', 'тольк', 'хорош', 'хот', 'чег', 'чут', 'эт', 'оп', 'а']
 
 
 def tokenize_only(text):
@@ -144,10 +144,8 @@ terms = tfidf_vectorizer.get_feature_names()
 
 dist = 1 - cosine_similarity(tfidf_matrix)
 
-print(dist)
 
-
-num_clusters = 5
+num_clusters = 20
 
 km = KMeans(n_clusters=num_clusters)
 
@@ -158,9 +156,24 @@ clusters = km.labels_.tolist()
 # Dump the model:
 joblib.dump(km,  'doc_cluster.pkl')
 
-km = joblib.load('doc_cluster.pkl')
+# km = joblib.load('doc_cluster.pkl')
 clusters = km.labels_.tolist()
 
+
+predict_me = tfidf_vectorizer.transform(['Какой провайдер лучше?'])
+print(km.predict(predict_me))
+
+predicted_class = km.predict(predict_me)
+
+
+print('Similar questions:')
+for i in ALL_QUESTIONS:
+    predict_me = tfidf_vectorizer.transform([i])
+    if km.predict(predict_me) == predicted_class:
+        print(i + '\n=====\n\n')
+
+
+"""  For grouping and calculations:
 films = { 'title': titles, 'synopsis': synopses, 'cluster': clusters }
 
 frame = pd.DataFrame(films, index = [clusters] , columns = ['title', 'cluster'])
@@ -201,86 +214,12 @@ pos = mds.fit_transform(dist)  # shape (n_components, n_samples)
 xs, ys = pos[:, 0], pos[:, 1]
 
 
-
-#set up colors per clusters using a dict
-cluster_colors = {0: '#1b9e77', 1: '#d95f02', 2: '#7570b3', 3: '#e7298a', 4: '#66a61e'}
-
-#set up cluster names using a dict
-cluster_names = {0: 'Different',
-                 1: 'Alpha',
-                 2: 'Pony',
-                 3: 'Alpha 2',
-                 4: 'Work'}
-
 # create data frame that has the result of the MDS plus the cluster numbers and titles
 df = pd.DataFrame(dict(x=xs, y=ys, label=clusters, title=titles))
 
 # group by cluster
 groups = df.groupby('label')
 
-# set up plot
-fig, ax = plt.subplots(figsize=(17, 9))  # set size
-ax.margins(0.05)  # Optional, just adds 5% padding to the autoscaling
-
-# iterate through groups to layer the plot
-# note that I use the cluster_name and cluster_color dicts with the 'name' lookup to return the appropriate color/label
-for name, group in groups:
-    ax.plot(group.x, group.y, marker='o', linestyle='', ms=12,
-            label=cluster_names[name], color=cluster_colors[name],
-            mec='none')
-    ax.set_aspect('auto')
-    ax.tick_params( \
-        axis='x',  # changes apply to the x-axis
-        which='both',  # both major and minor ticks are affected
-        bottom='off',  # ticks along the bottom edge are off
-        top='off',  # ticks along the top edge are off
-        labelbottom='off')
-    ax.tick_params( \
-        axis='y',  # changes apply to the y-axis
-        which='both',  # both major and minor ticks are affected
-        left='off',  # ticks along the bottom edge are off
-        top='off',  # ticks along the top edge are off
-        labelleft='off')
-
-ax.legend(numpoints=1)  # show legend with only 1 point
-
-# add label in x,y position with the label as the film title
-for i in range(len(df)):
-    ax.text(df.ix[i]['x'], df.ix[i]['y'], df.ix[i]['title'], size=8)
-
-plt.show()  # show the plot
-
-
-
-"""  Old words clustering:
-
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.cluster import KMeans
-
-
-stop_words = nltk.corpus.stopwords.words('russian')
-
-vectorizer = TfidfVectorizer(stop_words=stop_words)
-X = vectorizer.fit_transform(ALL_QUESTIONS)
-
-model = KMeans(n_clusters=2, init='k-means++', max_iter=100, n_init=1)
-model.fit(X)
-
-
-print("Top terms per cluster:")
-order_centroids = model.cluster_centers_.argsort()[:, ::-1]
-terms = vectorizer.get_feature_names()
-
-
-print(terms)
-
-
-for i in range(2):
-    print("Cluster %d:" % i)
-    for ind in order_centroids[i, :10]:
-        print(' %s' % terms[ind])
-    print()
-
-model.predict('У всех работает интернет?')
-
+for g in groups:
+    print(g)
 """
