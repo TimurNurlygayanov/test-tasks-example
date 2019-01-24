@@ -5,3 +5,8 @@ configparser
 sklearn
 pandas
 numpy
+
+gensim
+keras
+pymorphy2
+tqdm
