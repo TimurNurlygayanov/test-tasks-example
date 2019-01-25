@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32076f63-ca60-4557-b809-b0871cd6c4c9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/telegram/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/telegram/spellchecker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/get_all_messages.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/get_all_messages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/questions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/telegram/xwizard707.session" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/xwizard707.session" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/education_texts/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegram/spellchecker.py" beforeDir="false" afterPath="$PROJECT_DIR$/telegram/spellchecker.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/telegram/get_all_messages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
+            <state relative-caret-position="1134">
               <caret line="63" selection-start-line="63" selection-end-line="63" selection-end-column="28" />
               <folding>
                 <element signature="e#196#207#0" expanded="true" />
@@ -58,11 +53,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/telegram/spellchecker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+            <state relative-caret-position="938">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
               <folding>
-                <element signature="e#370#379#0" expanded="true" />
+                <element signature="e#546#555#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cleanup.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -76,8 +80,8 @@
         <entry file="file://$PROJECT_DIR$/telegram/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <first_editor>
+                <caret selection-end-line="5" selection-end-column="36" />
               </first_editor>
               <second_editor />
             </state>
@@ -105,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qa_python/lesson003/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="324">
               <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="e#44#59#0" expanded="true" />
@@ -136,6 +140,7 @@
     <findStrings>
       <find>body&gt;</find>
       <find>body</find>
+      <find>phrase</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/qa_python/lesson003/requirements.txt" />
         <option value="$PROJECT_DIR$/qa_python/lesson003/utils.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson/test.py" />
         <option value="$PROJECT_DIR$/qa_python/lesson002/test_my_service.py" />
@@ -194,15 +198,16 @@
         <option value="$PROJECT_DIR$/telegram/get_all_messages.py" />
         <option value="$PROJECT_DIR$/telegram/requirements.txt" />
         <option value="$PROJECT_DIR$/telegram/README.md" />
+        <option value="$PROJECT_DIR$/telegram/1" />
         <option value="$PROJECT_DIR$/telegram/spellchecker.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="271" />
-    <option name="y" value="156" />
-    <option name="width" value="1832" />
-    <option name="height" value="1072" />
+    <option name="x" value="513" />
+    <option name="y" value="76" />
+    <option name="width" value="1589" />
+    <option name="height" value="1152" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -220,11 +225,13 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,14 +262,12 @@
             <path>
               <item name="test-tasks-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-tasks-example" type="462c0819:PsiDirectoryNode" />
-              <item name="telegram" type="462c0819:PsiDirectoryNode" />
-              <item name="education_texts" type="462c0819:PsiDirectoryNode" />
+              <item name="url_getter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,16 +326,28 @@
       <workItem from="1548340317903" duration="2362000" />
       <workItem from="1548344032973" duration="67000" />
       <workItem from="1548344215241" duration="127000" />
+      <workItem from="1548344524482" duration="2937000" />
+      <workItem from="1548404681248" duration="531000" />
+      <workItem from="1548405436322" duration="1538000" />
+      <workItem from="1548408269707" duration="1720000" />
+      <workItem from="1548413191214" duration="800000" />
+      <workItem from="1548426947996" duration="421000" />
+      <workItem from="1548427695756" duration="2000" />
+      <workItem from="1548427708987" duration="6000" />
+      <workItem from="1548428444433" duration="12000" />
+      <workItem from="1548428528758" duration="21000" />
+      <workItem from="1548430155523" duration="1252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18294000" />
+    <option name="totallyTimeSpent" value="27534000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="189" y="93" width="1832" height="1072" extended-state="0" />
+    <frame x="513" y="76" width="1589" height="1152" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2055866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27213964" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -361,23 +378,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qa_python/stubs/my_stub_service_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" selection-start-line="41" selection-end-line="42" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qa_python/lesson006/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="26" selection-start-line="11" selection-start-column="4" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#151#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson006/yandex_example/test_page_object_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -534,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cleanup.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/allure_pytest_selenium/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -646,9 +639,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/telegram/education_texts/Идиот.txt" />
+    <entry file="file://$PROJECT_DIR$/../Downloads/whitelist_general.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram/1" />
     <entry file="file://$PROJECT_DIR$/telegram/get_all_messages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
+        <state relative-caret-position="1134">
           <caret line="63" selection-start-line="63" selection-end-line="63" selection-end-column="28" />
           <folding>
             <element signature="e#196#207#0" expanded="true" />
@@ -666,16 +668,6 @@
     <entry file="file://$PROJECT_DIR$/test_pytest_ru.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegram/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="10" selection-start-line="10" selection-end-line="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson007/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -692,7 +684,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qa_python/lesson003/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="324">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="30" />
           <folding>
             <element signature="e#44#59#0" expanded="true" />
@@ -707,19 +699,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/telegram/education_texts/Идиот.txt">
+    <entry file="file://$PROJECT_DIR$/cleanup.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="126">
+          <caret line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/telegram/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="5" selection-end-column="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/telegram/spellchecker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+        <state relative-caret-position="938">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
           <folding>
-            <element signature="e#370#379#0" expanded="true" />
+            <element signature="e#546#555#0" expanded="true" />
           </folding>
         </state>
       </provider>
