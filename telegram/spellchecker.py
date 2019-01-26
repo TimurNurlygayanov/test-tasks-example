@@ -66,13 +66,13 @@ if not os.path.isfile(spell_check_model_name):
         sentences[i] = sentence
     sentences = [x for x in sentences if x]
 
-    # Training the model (it can take 2+ hours!):
+    # Training the model (it can take 2+ hours):
     model = gensim.models.FastText(sentences, size=300,
                                    window=1, min_count=1, sg=1, iter=100,
                                    min_n=1, max_n=6)
     model.init_sims(replace=True)
 
-    # Save model to the disk (it will take 200+ Mb on disk!)
+    # Save model to the disk (it will take 200+ Mb on disk)
     print('Saving model to the disk...')
     model.save(spell_check_model_name)
 

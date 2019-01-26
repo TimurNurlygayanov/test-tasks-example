@@ -45,18 +45,6 @@ api_id = get_conf_param('api_id', '')
 api_hash = get_conf_param('api_hash', '')
 chat = get_conf_param('chat', '')
 
-
-def any_question_words(text):
-    words = ['как', 'где', 'какой', 'кто',
-             'когда', 'подскажите']
-
-    for word in words:
-        if word in text:
-            return True
-
-    return False
-
-
 ALL_MESSAGES = []
 ALL_QUESTIONS = []
 
