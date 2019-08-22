@@ -25,7 +25,7 @@ Steps
 * Create file `Procfile` in the same folder with the following content:
 
 
-    web: gunicorn app:app
+    web: gunicorn app:app --preload
 
 * Create file `requirements.txt`:
 
@@ -40,6 +40,7 @@ Steps
     git init
     heroku git:remote -a my_first_heroku_app
     heroku config:set FLASK_APP=app.py
+    heroku config:set WEB_CONCURRENCY=3
     git add .
     git commit -am "Added first version of app"
     git push heroku master
