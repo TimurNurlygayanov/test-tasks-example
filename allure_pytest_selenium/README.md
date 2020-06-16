@@ -20,7 +20,7 @@ https://chromedriver.storage.googleapis.com/index.html?path=2.43/
     
 И после всего этого уже можно запускать тесты:
 
-    python3 -m pytest -v --driver Chrome --driver-path /tests/chrome --alluredir ./allure_report
+    python3 -m pytest -v --driver Chrome --driver-path /tests/chrome
 
 Обратите внимание, что в данном случае я положил скачанный 
 на первом шаге дравер для браузера в папку /tests/ -

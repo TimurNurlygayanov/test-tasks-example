@@ -1,0 +1,4 @@
+pytest
+selenium
+pytest-selenium
+page-objects
