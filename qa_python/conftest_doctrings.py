@@ -13,7 +13,7 @@ def get_test_case_docstring(item):
 
     if item._obj.__doc__:
         # Remove extra whitespaces from the doc string:
-        name = str(item._obj.__doc__.strip('.')[0]).strip()
+        name = str(item._obj.__doc__.split('.')[0]).strip()
         full_name = ' '.join(name.split())
 
         # Generate the list of parameters for parametrized test cases:
