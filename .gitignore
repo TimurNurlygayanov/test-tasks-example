@@ -5,6 +5,7 @@ __py*
 testdev/
 .DS*
 
+*__pycache__*
 __pycache__/
 *.py[cod]
 
