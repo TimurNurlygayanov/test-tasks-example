@@ -1,0 +1,11 @@
+{
+  "name": "Basic Authentication Addon",
+  "version": "1.0",
+  "description": "Basic Authentication Addon",
+  "permissions": ["webRequest","webRequestBlocking","<all_urls>"],
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+  "manifest_version": 2
+}

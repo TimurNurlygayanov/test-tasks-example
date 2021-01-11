@@ -9,6 +9,8 @@ BROWSERS = []
 
 
 def start_browsers():
+    """ Start new browser. """
+
     global BROWSERS
 
     chrome_options = Options()
@@ -24,7 +26,6 @@ def start_browsers():
                                    service_args=["--log-path=/tmp/chrome.log"])
 
         browser.get_network_conditions()
-        browser.
 
         BROWSERS.append(browser)
 
