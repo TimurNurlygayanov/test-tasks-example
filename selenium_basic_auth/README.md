@@ -4,6 +4,8 @@
 демонстрирует как можно пройти Basic Auth в ваших
 автоматизированных тестах на основе Selenium.
 
+Моя благодарность автору https://github.com/arunelias/Selenium-Chrome-Addon
+
 Файлы
 -----
 Папка basic_auth_plugin - здесь находится очень простой 
