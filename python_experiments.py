@@ -140,3 +140,11 @@ res = filter(lambda x: x < 4, numbers)
 res2 = (x for x in numbers if x < 4)  # create generator
 print(list(res), list(res2))
 
+# Intern strings:
+# https://temofeev.ru/info/articles/ukazateli-v-python-v-chyem-sut/
+a = 'test'
+b = 'test'
+print(a is b)
+a = 'test!'
+b = 'test!'
+print(a is b)
