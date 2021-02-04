@@ -94,7 +94,7 @@ with open('requests.txt', 'r') as file_r:
             while not results_queue.empty():
                 result = results_queue.get()
 
-                print (json.dumps(result, ensure_ascii=False))
+                print(json.dumps(result, ensure_ascii=False))
 
 
 time.sleep(1)
@@ -103,8 +103,7 @@ NEXT_REQUESTS = []
 # Print all the results (note: it is async queue):
 while not results_queue.empty():
     result = results_queue.get()
-
-    print (json.dumps(result, ensure_ascii=False))
+    print(json.dumps(result, ensure_ascii=False))
 
 with open('requests_next.txt', 'w') as file_r:
     for r in NEXT_REQUESTS:

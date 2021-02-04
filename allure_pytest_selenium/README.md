@@ -31,6 +31,16 @@ https://chromedriver.storage.googleapis.com/index.html?path=2.43/
 Как получить Allure Report
 --------------------------
 
+Самая простая версия, с использованием докер контейнера:
+
+```bash
+docker run --rm -it --name allure --volume $(pwd)"/allure_report:/home/allure/" solutis/allure:latest allure generate /home/allure/ -o /home/allure/report
+```
+
+После этого в папке allure_report/report будет лежать сгененированный отчет
+
+Более сложная версия, с генерацией в самой системе:
+
 Для генерации красивого Allure отчета вам нужно:
 
 1) Установить NodeJS (https://nodejs.org/en/download/)

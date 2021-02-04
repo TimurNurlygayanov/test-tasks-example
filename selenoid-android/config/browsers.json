@@ -1,0 +1,17 @@
+{
+  "android": {
+    "default": "10.0",
+    "versions": {
+      "10.0": {
+        "image": "selenoid/android:10.0",
+        "port": "4444",
+        "path": "/wd/hub",
+        "selenoid:options": {
+          "enableVNC": true,
+          "enableVideo": true,
+          "enableLog": true
+        }
+      }
+    }
+  }
+}

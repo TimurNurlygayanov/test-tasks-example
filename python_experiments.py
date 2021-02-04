@@ -148,3 +148,25 @@ print(a is b)
 a = 'test!'
 b = 'test!'
 print(a is b)
+
+
+def my_dec_with_params(test):
+    def my_decorator(func):
+        def internal_func(*args, **kwargs):
+            print('Before')
+            print(args)
+            args = (10, args[1])
+            res = func(*args, **kwargs)
+            print('After')
+            return res
+        return internal_func
+    return my_decorator()
+
+@my_dec_with_params(test=2)
+def my_test_func(a, b):
+    res = a + b
+    print(res)
+    return res
+
+my_test_func(1, 3)
+

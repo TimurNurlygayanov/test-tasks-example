@@ -1,5 +1,5 @@
 pytest
 selenium
 pytest-selenium
-pytest-allure
+allure-pytest
 page-objects
