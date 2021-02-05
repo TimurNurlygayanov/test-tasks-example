@@ -9,7 +9,9 @@
         "selenoid:options": {
           "enableVNC": true,
           "enableVideo": true,
-          "enableLog": true
+          "enableLog": true,
+          "skin": "WXGA720",
+          "env": ["ANDROID_EMULATOR_USE_SYSTEM_LIBS=1"]
         }
       }
     }
