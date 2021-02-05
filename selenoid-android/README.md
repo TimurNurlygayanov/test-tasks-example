@@ -1,11 +1,3 @@
-How To Run Selenoid + SelenoidUI + Android
-------------------------------------------
-
-Just run the following command:
-```
-./deploy.sh
-```
-
 How To Build Docker Android with Google Play
 --------------------------------------------
 
@@ -25,7 +17,8 @@ image tag: android10_google_play
 ```
 1) Run docker container with new image:
 ```
-sudo docker run -d --name emulator-test -e ENABLE_VNC=true -e SKIN=WXGA800 --privileged -p 5900:5900 -p 8888:4445 android10_google_play
+sudo docker run -d --name emulator-test -e ENABLE_VNC=true -e SKIN=WXGA800 \
+     --privileged -p 5900:5900 -p 8888:4445 android10_google_play
 ```
 1) Connect to VNC on localhost:5900, run Google Play service, authorize with your google account.
 1) Save changes in new image:
