@@ -26,6 +26,7 @@ sudo docker run -d --name emulator-test -e ENABLE_VNC=true -e SKIN=WXGA800 \
 sudo docker commit 08bc3cafe47b android10_google_play_authorized
 ```
 note: 08bc3cafe47b here is the ID of docker container we created on step #2.
+
 5) Now you can use this image in your browsers.json:
 ```
 {
