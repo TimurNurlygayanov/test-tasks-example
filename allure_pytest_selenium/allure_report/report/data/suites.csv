@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Thu Feb 04 12:52:56 BRST 2021","Thu Feb 04 12:53:06 BRST 2021","10755","test-tasks-example.allure_pytest_selenium","test_yandex","","","","test_yandex_market_search[кофеварка]"," Check that we can find required products on YandexMarket. "
-"broken","Thu Feb 04 12:52:42 BRST 2021","Thu Feb 04 12:52:52 BRST 2021","10087","test-tasks-example.allure_pytest_selenium","test_yandex","","","","test_yandex_market_search[iphone]"," Check that we can find required products on YandexMarket. "
