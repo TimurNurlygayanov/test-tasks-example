@@ -1,3 +1,5 @@
+*.hypothesis*
+
 *.pyc
 __py*
 .cache/

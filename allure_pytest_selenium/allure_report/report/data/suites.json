@@ -1,0 +1,37 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test-tasks-example.allure_pytest_selenium",
+    "children" : [ {
+      "name" : "test_yandex",
+      "children" : [ {
+        "name" : "test_yandex_market_search[iphone]",
+        "uid" : "dc27e44be9f599f1",
+        "parentUid" : "dfaf1f287f85ed8a653f0554b50b86be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612450362382,
+          "stop" : 1612450372469,
+          "duration" : 10087
+        },
+        "flaky" : false,
+        "parameters" : [ "'iphone'" ]
+      }, {
+        "name" : "test_yandex_market_search[кофеварка]",
+        "uid" : "89f68a0a6de674fa",
+        "parentUid" : "dfaf1f287f85ed8a653f0554b50b86be",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612450376156,
+          "stop" : 1612450386911,
+          "duration" : 10755
+        },
+        "flaky" : false,
+        "parameters" : [ "'кофеварка'" ]
+      } ],
+      "uid" : "dfaf1f287f85ed8a653f0554b50b86be"
+    } ],
+    "uid" : "ae4eb482b932b1580b01add64f7401b9"
+  } ],
+  "name" : "suites"
+}

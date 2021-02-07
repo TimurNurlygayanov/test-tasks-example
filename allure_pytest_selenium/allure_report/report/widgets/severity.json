@@ -1,0 +1,21 @@
+[ {
+  "uid" : "dc27e44be9f599f1",
+  "name" : "test_yandex_market_search[iphone]",
+  "time" : {
+    "start" : 1612450362382,
+    "stop" : 1612450372469,
+    "duration" : 10087
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "89f68a0a6de674fa",
+  "name" : "test_yandex_market_search[кофеварка]",
+  "time" : {
+    "start" : 1612450376156,
+    "stop" : 1612450386911,
+    "duration" : 10755
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

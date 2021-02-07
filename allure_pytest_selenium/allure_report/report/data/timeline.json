@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "MacBookPro-TNurlygaianov",
+    "children" : [ {
+      "name" : "60876-MainThread",
+      "children" : [ {
+        "name" : "test_yandex_market_search[кофеварка]",
+        "uid" : "89f68a0a6de674fa",
+        "parentUid" : "33dfd4d83651c61fa4bcdd3f9aee40f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612450376156,
+          "stop" : 1612450386911,
+          "duration" : 10755
+        },
+        "flaky" : false,
+        "parameters" : [ "'кофеварка'" ]
+      }, {
+        "name" : "test_yandex_market_search[iphone]",
+        "uid" : "dc27e44be9f599f1",
+        "parentUid" : "33dfd4d83651c61fa4bcdd3f9aee40f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1612450362382,
+          "stop" : 1612450372469,
+          "duration" : 10087
+        },
+        "flaky" : false,
+        "parameters" : [ "'iphone'" ]
+      } ],
+      "uid" : "33dfd4d83651c61fa4bcdd3f9aee40f9"
+    } ],
+    "uid" : "d16098ec2a44627e9eb8a0710d6f805e"
+  } ],
+  "name" : "timeline"
+}
