@@ -1,6 +1,6 @@
 # FROM hakerrank
 
-# Select all cities inUSA with population larger than 120k
+# Select all cities in USA with population larger than 120k
 SELECT NAME FROM CITY WHERE COUNTRYCODE='USA' AND POPULATION>120000;
 
 # Select unique cities with even IDs

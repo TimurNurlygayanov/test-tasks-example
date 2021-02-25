@@ -8,7 +8,6 @@ def is_valid_combination(row):
     """
 
     if len(row) > 1:
-        print(row)
         if 'Brand X' == row[0] and row[1] == '2000':
             return False
 

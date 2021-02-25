@@ -1,0 +1,70 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: Example API
+  license:
+    name: MIT
+host: www.example.com
+basePath: /
+schemes:
+  - http
+paths:
+  /users:
+    get:
+      produces:
+        - application/json; charset=utf-8
+      responses:
+        '200':
+          description: ''
+          schema:
+            type: array
+            items:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  name:
+                    type: string
+    post:
+      consumes:
+        - multipart/form-data
+      parameters:
+        - name: name
+          in: formData
+          type: string
+          description:
+          example: Kevin Addword
+          required: true
+        - name: language
+          in: formData
+          type: string
+          description:
+          example: EN
+          required: true
+      responses:
+        200:
+          description: The status code 200 means that pet was successfully added to the database.
+          schema:
+            type: object
+            properties:
+              id:
+                type: string
+                example: "9C4AEC87-37A4-4EE0-8F1B-3170C816536C"
+              name:
+                type: string
+                example: "Kevin Addword"
+              language:
+                type: string
+                example: "EN"
+    delete:
+      parameters:
+        - name: user_id
+          in: path
+          type: string
+          required: true
+          description: The ID of user which should be deleted from database.
+          example: 111B1977-B9D2-4586-B538-7406233FF091
+      responses:
+        200:
+          description: 200 status code means that the pet was removed from database successfully.
