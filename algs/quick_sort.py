@@ -42,13 +42,10 @@ def quick_sort(array: list) -> list:
     return array
 
 
-
-
 examples = [[1, 2, 3, 5, 6, 7],
             [23, 4, 5, 1, -5, 11101],
             [7, 6, 5, 4, 3, 2, 1, 1],
             [1, 1, 1, 1], [1, ], []]
-# examples = [[7, 5, -1, 3]]
 
 for example in examples:
     res = quick_sort(example[:])
