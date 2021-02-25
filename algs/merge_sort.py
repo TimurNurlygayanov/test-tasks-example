@@ -14,7 +14,6 @@ def merge_sort(array: list) -> list:
     result = []
 
     while i < half_index or j < len(array):
-        print(array, i, j)
         if i < half_index and (j == len(array) or array[i] <= array[j]):
             result.append(array[i])
             i += 1
