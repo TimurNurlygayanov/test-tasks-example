@@ -43,26 +43,25 @@ desired_places = ['school', 'shop', 'gym']
 
 
 start = 0
-end = len(blocks) - 1
+last = len(blocks) - 1
 
-results = [{k: end for k in desired_places}
-           for i in range(end + 1)]
+results = [{k: last for k in desired_places}
+           for i in range(last + 1)]
 
-while start != end:
+while last:
     for r in desired_places:
         if blocks[start][r]:
             results[start][r] = 0
         elif start > 0 and results[start - 1][r] < results[start][r]:
             results[start][r] = results[start - 1][r] + 1
 
-        last = end - start
         if blocks[last][r]:
             results[last][r] = 0
-        elif end < len(blocks) - 1 and results[last + 1][r] < results[start][r]:
+        elif last < len(blocks) - 1 and results[last + 1][r] < results[last][r]:
             results[last][r] = results[last + 1][r] + 1
 
     start += 1
-    end -= 1
+    last -= 1
 
 # Here we have "points" for each block:
 print(results)
