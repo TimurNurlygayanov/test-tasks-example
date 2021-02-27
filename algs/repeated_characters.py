@@ -30,10 +30,11 @@ def check_repeats(my_str: str) -> bool:
 
     for s in my_str:
         char_index = ord(s)
+
         if visited_chars[char_index]:
             return True
-        else:
-            visited_chars[char_index] = True
+
+        visited_chars[char_index] = True
 
     return False
 

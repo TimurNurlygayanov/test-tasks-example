@@ -19,10 +19,8 @@ def get_top_char(my_str: str) -> str:
     # create map of character and the count of
     # this character in the string:
     for s in my_str:
-        if s in all_characters:
-            all_characters[s] += 1
-        else:
-            all_characters[s] = 1
+        all_characters.setdefault(s, 0)
+        all_characters[s] += 1
 
     return max(all_characters.items(), key=lambda x: x[1])[0]
 

@@ -7,7 +7,6 @@ from random import randint
 
 
 def quick_sort(array: list) -> list:
-    print('Array', array)
     if len(array) <= 1:
         return array
 
@@ -16,7 +15,6 @@ def quick_sort(array: list) -> list:
 
     stone_position = randint(start, end)
     stone = array[stone_position]
-    print('Stone', stone)
 
     while start <= end:
         while array[start] < stone:
@@ -26,14 +24,9 @@ def quick_sort(array: list) -> list:
             end -= 1
 
         if start <= end:
-            temp = array[start]
-            array[start] = array[end]
-            array[end] = temp
-
+            array[start], array[end] = array[end], array[start]
             start += 1
             end -= 1
-
-            print('Swap -> ', array)
 
     if stone_position:
         array = quick_sort(array[:stone_position + 1]) + \

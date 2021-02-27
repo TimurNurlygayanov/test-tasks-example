@@ -29,7 +29,7 @@ def get_year_on_max_population(data: list):
     """
 
     hashmap = {}
-    for person in example:
+    for person in data:
         for i in range(person['birth'], person['death'] + 1):
             hashmap.setdefault(i, 0)
             hashmap[i] += 1
@@ -40,11 +40,11 @@ def get_year_on_max_population(data: list):
     return None
 
 
-def get_year_on_max_population(data: list):
+def get_year_on_max_population(data: list) -> int:
     """ Optimized solution with hashmap. """
 
     hashmap = {}
-    for person in example:
+    for person in data:
         hashmap.setdefault(person['birth'], 0)
         hashmap.setdefault(person['death'] + 1, 0)
 

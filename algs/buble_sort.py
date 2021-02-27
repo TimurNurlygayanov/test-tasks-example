@@ -8,9 +8,7 @@ def buble_sort(array: list) -> list:
     for i in range(array_len):
         for j in range(i+1, array_len):
             if array[i] > array[j]:
-                temp = array[i]
-                array[i] = array[j]
-                array[j] = temp
+                array[i], array[j] = array[j], array[i]
 
     return array
 
