@@ -1,0 +1,6 @@
+config:
+  trains:
+    train1:
+      speed: 100
+      number_of_cars: 6
+    train2:
