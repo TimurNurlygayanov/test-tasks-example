@@ -30,19 +30,10 @@ class Node(object):
         self.child_nodes.append(new_node)
         return new_node
 
-    def print(self, n_tabs=1):
-        print('|'*n_tabs, self.value)
-
-        for child in self.child_nodes:
-            child.print()
-
     def count_of_contacts(self):
         result = 0
         if self.phone:
             result += 1
-
-        if not self.child_nodes:
-            return result
 
         for child in self.child_nodes:
             result += child.count_of_contacts()
@@ -68,6 +59,7 @@ class Contacts(object):
     def search(self, name):
         root = self.my_tree
         result = 0
+
         for char in name:
             node = root.get_child(char)
 
